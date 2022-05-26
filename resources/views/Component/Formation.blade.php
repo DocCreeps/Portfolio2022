@@ -29,7 +29,7 @@
                         <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">08/2019</p>
                     </div>
                     <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> MOOC RGPD</h3>
-                    <p class="text-gray-700 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula.</p>
+                    <p class="text-gray-700 mb-6">Mooc sur les bonnes pratiques RGPD .</p>
                 </div>
             </div>
 
@@ -44,7 +44,7 @@
                         <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">02/2019</p>
                     </div>
                     <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> MOOC Sec Num Académie</h3>
-                    <p class="text-gray-700 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula.</p>
+                    <p class="text-gray-700 mb-6">Mooc d'initiation à la cybersécurité</p>
                 </div>
             </div>
             <!-- left timeline -->
