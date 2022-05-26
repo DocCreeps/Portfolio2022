@@ -63,12 +63,15 @@
     <!-- Background image -->
     <div
         class="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover h-90 lg:h-screen"
-        style="background-image: url('/public/Picture/headerBackground.png')"
+        style="background-image: url({{asset('Picture/headerBackground.png')}})"
     >
         <div
             class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-            style="background-color: rgba(2, 56, 53, 0.7)"
+            style="background-color: rgba(0, 0, 0, 0.75)"
         >
+            <div class="flex justify-center items-center h-full">
+
+            </div>
 
         </div>
 
