@@ -661,6 +661,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-24 {
   width: 6rem;
 }
+.w-64 {
+  width: 16rem;
+}
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -673,6 +676,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .max-w-sm {
   max-width: 24rem;
 }
+.flex-none {
+  flex: none;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -681,6 +690,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.flex-row {
+  flex-direction: row;
 }
 .flex-row-reverse {
   flex-direction: row-reverse;
