@@ -580,6 +580,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-12 {
   margin-bottom: 3rem;
 }
+.ml-14 {
+  margin-left: 3.5rem;
+}
 .block {
   display: block;
 }
@@ -682,6 +685,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .flex-1 {
   flex: 1 1 0%;
 }
+.basis-2\/4 {
+  flex-basis: 50%;
+}
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -712,6 +718,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-between {
   justify-content: space-between;
 }
+.justify-around {
+  justify-content: space-around;
+}
 .gap-5 {
   gap: 1.25rem;
 }
@@ -720,6 +729,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .gap-4 {
   gap: 1rem;
+}
+.gap-6 {
+  gap: 1.5rem;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.gap-12 {
+  gap: 3rem;
+}
+.gap-64 {
+  gap: 16rem;
 }
 .space-x-7 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -1335,6 +1356,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .lg\:justify-between {
     justify-content: space-between;
   }
@@ -1362,6 +1387,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .xl\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .xl\:px-32 {
