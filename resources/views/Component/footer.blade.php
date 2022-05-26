@@ -5,7 +5,7 @@
         </div>
         <div class="flex justify-center">
 
-            <a href="#!" class="mr-6 text-gray-600">
+            <a href="https://www.linkedin.com/in/dorian-vericel-576461180/"  target="_blank"  class=" mr-6 text-gray-600">
                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
                      class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 448 512">
@@ -14,7 +14,7 @@
                     </path>
                 </svg>
             </a>
-            <a href="#!" class="text-gray-600">
+            <a href="https://github.com/DocCreeps" target="_blank" class="text-gray-600">
                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
                      class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                     <path fill="currentColor"
