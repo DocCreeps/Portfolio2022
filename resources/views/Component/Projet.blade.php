@@ -79,7 +79,7 @@
 
     <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3">Projets Scolaire</h3>
 
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3">Projets Licence et Master</h3>
+    <h4 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3">Projets Licence et Master</h4>
     <div class="text-center items-center flex justify-around mt-20 mb-20">
 
         <div class="">

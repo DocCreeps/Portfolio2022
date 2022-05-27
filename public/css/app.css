@@ -562,11 +562,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mr-12 {
   margin-right: 3rem;
 }
+.ml-32 {
+  margin-left: 8rem;
+}
 .mr-6 {
   margin-right: 1.5rem;
-}
-.mr-3 {
-  margin-right: 0.75rem;
 }
 .mr-4 {
   margin-right: 1rem;
@@ -576,12 +576,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .mb-12 {
   margin-bottom: 3rem;
-}
-.ml-5 {
-  margin-left: 1.25rem;
-}
-.ml-32 {
-  margin-left: 8rem;
 }
 .block {
   display: block;

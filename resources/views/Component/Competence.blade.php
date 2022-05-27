@@ -228,14 +228,19 @@
             <img class="mx-auto" src="{{asset('Picture/office.jpg')}}" alt="logo suite office" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Suite Office</div>
-            </div>
-        </div>
+                <p class="text-gray-700 text-center text-base">
+
+            </div></div>
 
         <div class="rounded overflow-hidden shadow-lg">
             <img class="mx-auto" src="{{asset('Picture/jetbrain.jpg')}}" alt="logo jetbrain" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Suite Jetbrain</div>
+                <p class="text-gray-700 text-center text-base">
+                    PhpStrom, WebStorm, Idea, Pycharm, Datagrip
+                </p>
             </div>
+
         </div>
 
         <div class="rounded overflow-hidden shadow-lg">
@@ -259,12 +264,18 @@
                 <div class="font-bold text-center text-xl mb-2">LARAGON</div>
             </div>
         </div>
-        <div class="rounded overflow-hidden shadow-lg">
-            <img class="mx-auto" src="{{asset('Picture/sqlserver.png')}}" alt="logo sql server" >
-            <div class="px-6 py-4">
-                <div class="font-bold text-center text-xl mb-2">SQL SERVER</div>
+
+            <div class="rounded overflow-hidden shadow-lg">
+                <img class="mx-auto" src="{{asset('Picture/sql.png')}}" alt="logo sql" >
+                <div class="px-6 py-4">
+                    <div class="font-bold text-center text-xl mb-2">SQL</div>
+                    <p class="text-gray-700 text-center text-base">
+                        SqlServer, MySQL, Mariadb
+                    </p>
+                </div>
+
             </div>
-        </div>
+
     </div>
 
 </section>
