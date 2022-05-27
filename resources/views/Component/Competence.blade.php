@@ -10,9 +10,6 @@
         <img class="mx-auto" src="{{asset('Picture/php.jpg')}}" alt="logo php" >
         <div class="px-6 py-4">
             <div class="font-bold text-center text-xl mb-2">PHP</div>
-            <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-            </p>
 
             <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
                 <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 65%"></div>
@@ -25,9 +22,7 @@
         <img class="mx-auto" src="{{asset('Picture/js.png')}}" alt="logo js" >
         <div class="px-6 py-4">
             <div class="font-bold text-center text-xl mb-2">JS</div>
-            <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-            </p>
+
             <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
                 <div class="h-4 bg-yellow-300 rounded-full dark:bg-yellow-300" style="width: 60%"></div>
             </div>
@@ -40,9 +35,7 @@
         <img class="mx-auto" src="{{asset('Picture/htmlcss.png')}}" alt="logo html css" >
         <div class="px-6 py-4">
             <div class="font-bold text-center text-xl mb-2">HTML/CSS</div>
-            <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-            </p>
+
             <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
                 <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 80%"></div>
             </div>
@@ -53,9 +46,7 @@
         <img class="mx-auto" src="{{asset('Picture/python.jpg')}}" alt="logo python" >
         <div class="px-6 py-4">
             <div class="font-bold text-center text-xl mb-2">Python</div>
-            <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-            </p>
+
             <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
                 <div class="h-4 bg-yellow-300 rounded-full dark:bg-yellow-300" style="width: 45%"></div>
             </div>
@@ -67,9 +58,7 @@
         <img class="mx-auto" src="{{asset('Picture/Csharp.png')}}" alt="logo c#" >
         <div class="px-6 py-4">
             <div class="font-bold text-center text-xl mb-2">C#</div>
-            <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-            </p>
+
             <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
                 <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 50%"></div>
             </div>
@@ -82,9 +71,7 @@
         <img class="mx-auto" src="{{asset('Picture/sql.png')}}" alt="logo sql" >
         <div class="px-6 py-4">
             <div class="font-bold text-center text-xl mb-2">SQL</div>
-            <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-            </p>
+
             <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
                 <div class="h-4 bg-orange-400 rounded-full dark:bg-orange-400" style="width: 85%"></div>
             </div>
@@ -95,9 +82,7 @@
         <img class="mx-auto" src="{{asset('Picture/vba.png')}}" alt="logo vba" >
         <div class="px-6 py-4">
             <div class="font-bold text-center text-xl mb-2">VBA</div>
-            <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-            </p>
+
             <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
                 <div class="h-4 bg-green-400 rounded-full dark:bg-green-400" style="width: 55%"></div>
             </div>
@@ -108,9 +93,7 @@
         <img class="mx-auto" src="{{asset('Picture/java.png')}}" alt="logo java" >
         <div class="px-6 py-4">
             <div class="font-bold text-center text-xl mb-2">JAVA</div>
-            <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-            </p>
+
             <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
                 <div class="h-4 bg-red-600 rounded-full dark:bg-red-600" style="width: 55%"></div>
             </div>
@@ -125,9 +108,12 @@
             <img class="mx-auto" src="{{asset('Picture/laravel.jpg')}}" alt="logo laravel" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Laravel</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                <p class="text-gray-700 text-center text-base">
+                   Framework PHP
                 </p>
+                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
+                    <div class="h-4 bg-orange-500 rounded-full dark:bg-orange-500" style="width: 55%"></div>
+                </div>
             </div>
         </div>
         <!--Card 2-->
@@ -135,9 +121,12 @@
             <img class="mx-auto" src="{{asset('Picture/react.png')}}" alt="logo react" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">React/React native</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                <p class="text-gray-700 text-center text-base">
+                    Framework JS
                 </p>
+                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
+                    <div class="h-4 bg-blue-300 rounded-full dark:bg-blue-300" style="width: 50%"></div>
+                </div>
             </div>
         </div>
 
@@ -146,18 +135,24 @@
             <img class="mx-auto" src="{{asset('Picture/bootstrap.jpg')}}" alt="logo bootstrap" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Bootstrap</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                <p class="text-gray-700 text-center text-base">
+                    Framework CSS
                 </p>
+                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
+                    <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 60%"></div>
+                </div>
             </div>
         </div>
         <div class="rounded overflow-hidden shadow-lg">
             <img class="mx-auto" src="{{asset('Picture/tailwind.png')}}" alt="logo tailwind" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Tailwind</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                <p class="text-gray-700 text-center text-base">
+                   Framework CSS
                 </p>
+                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
+                    <div class="h-4 bg-green-400 rounded-full dark:bg-green-400" style="width: 50%"></div>
+                </div>
             </div>
         </div>
 
@@ -188,7 +183,11 @@
             <img class="mx-auto" src="{{asset('Picture/linux.png')}}" alt="logo linux" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Linux</div>
+                <p class="text-gray-700 text-center text-base">
+                   Distribution : Debian, Ubuntu, RedHat
+                </p>
             </div>
+
         </div>
 
         <!--Card 3-->
@@ -207,10 +206,7 @@
         <div class="rounded overflow-hidden shadow-lg ">
             <img class="mx-auto" src="{{asset('Picture/git.png')}}" alt="logo git" >
             <div class="px-6 py-4">
-                <div class="font-bold text-center text-xl mb-2">Git Github Gitlab</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
+                <div class="font-bold text-center text-xl mb-2">Git</div>
             </div>
         </div>
         <!--Card 2-->
@@ -218,9 +214,6 @@
             <img class="mx-auto" src="{{asset('Picture/docker.jpg')}}" alt="logo docker" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Docker</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
             </div>
         </div>
 
@@ -229,18 +222,12 @@
             <img class="mx-auto" src="{{asset('Picture/wordpress.jpg')}}" alt="logo wordpress" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Wordpress</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
             </div>
         </div>
         <div class="rounded overflow-hidden shadow-lg">
             <img class="mx-auto" src="{{asset('Picture/office.jpg')}}" alt="logo suite office" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Suite Office</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
             </div>
         </div>
 
@@ -248,9 +235,6 @@
             <img class="mx-auto" src="{{asset('Picture/jetbrain.jpg')}}" alt="logo jetbrain" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Suite Jetbrain</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
             </div>
         </div>
 
@@ -258,9 +242,6 @@
             <img class="mx-auto" src="{{asset('Picture/glpi.png')}}" alt="logo glpi" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">GLPI</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
             </div>
         </div>
 {{--        <div class="rounded overflow-hidden shadow-lg">--}}
@@ -276,18 +257,12 @@
             <img class="mx-auto" src="{{asset('Picture/laragon.png')}}" alt="logo laragon" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">LARAGON</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
             </div>
         </div>
         <div class="rounded overflow-hidden shadow-lg">
             <img class="mx-auto" src="{{asset('Picture/sqlserver.png')}}" alt="logo sql server" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">SQL SERVER</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
             </div>
         </div>
     </div>
