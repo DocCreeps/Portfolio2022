@@ -1,6 +1,6 @@
 <header>
-    <!-- Navbar -->
-    <nav class="sticky top-0 z-50 bg-white shadow-lg">
+
+    <nav  class="fixed top-0 z-50 w-full bg-white shadow-lg">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between">
                 <div class="flex space-x-7">
@@ -10,14 +10,29 @@
                             <span class="font-semibold text-gray-500 text-lg">Dorian Vericel</span>
                         </a>
                     </div>
+
                     <!-- Primary Navbar items -->
                     <div class="hidden md:flex items-center space-x-1">
-                        <a href="" class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold ">A Propos De Moi</a>
-                        <a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Experiences Professionnelle</a>
-                        <a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Formations</a>
-                        <a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Compétences</a>
-                        <a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Projets</a>
-                        <a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact</a>
+                        <ul class="navbar-nav mr-auto justify-center items-center lg:flex">
+                        <li class="nav-item">
+                        <a href="#about" class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold">A Propos De Moi</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="#xpPro" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300 ">Experiences Professionnelle</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="#formation" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Formations</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="#competences" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="#projets" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Projets</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="#contact" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact</a>
+                        </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -42,11 +57,12 @@
         <!-- mobile menu -->
         <div class="hidden mobile-menu">
             <ul class="">
-                <li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">A Propos De Moi</a></li>
-                <li><a href="#services" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Experiences Professionnelle</a></li>
-                <li><a href="#services" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Formations</a></li>
-                <li><a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Compétences</a></li>
-                <li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Projets</a></li>
+                <li><a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">A Propos De Moi</a></li>
+                <li><a href="#xpPro" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Experiences Professionnelle</a></li>
+                <li><a href="#formation" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Formations</a></li>
+                <li><a href="#competences" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Compétences</a>
+                </li>
+                <li><a href="#projets" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Projets</a></li>
                 <li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact</a></li>
             </ul>
         </div>

@@ -1,5 +1,5 @@
 <Section>
-    <h1 class="text-5xl text-center t font-bold mt-20 mb-10 -ml-3">Formations</h1>
+    <h1 class="text-5xl text-center t font-bold mt-20 mb-10 -ml-3" id="formation">Formations</h1>
 
     <div class="container mx-auto w-full h-full">
         <div class="relative wrap overflow-hidden p-10 h-full">

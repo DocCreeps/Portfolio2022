@@ -1,8 +1,8 @@
 
-<section>
+<section id="projets">
     <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 ">Projets</h1>
 
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3">Projets Perso</h3>
+    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3" id="ProjetPerso">Projets Perso</h3>
 
     <div class="text-center items-center flex justify-around">
 
@@ -77,9 +77,9 @@
         </div>
     </div>
 
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3">Projets Scolaire</h3>
+    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3" id="ProjetScolaire">Projets Scolaire</h3>
 
-    <h4 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3">Projets Licence et Master</h4>
+    <h4 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3" id="ProjetMaster">Projets Licence et Master</h4>
     <div class="text-center items-center flex justify-around mt-20 mb-20">
 
         <div class="">
@@ -113,7 +113,7 @@
         </div>
     </div>
 
-    <h4 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3">Projets BTS</h4>
+    <h4 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3" id="projetBts">Projets BTS</h4>
     <div class="text-center items-center flex justify-around mt-20 mb-20">
 
         <div class="">
