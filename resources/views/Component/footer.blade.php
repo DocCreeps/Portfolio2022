@@ -38,19 +38,16 @@
                     Navigation
                 </h6>
                 <p class="mb-4">
-                    <a href="#!" class="text-gray-600">Experiences Professionnelles</a>
+                    <a href="#xpPro" class="text-gray-600">Experiences Professionnelles</a>
                 </p>
                 <p class="mb-4">
-                    <a href="#!" class="text-gray-600">Formations</a>
+                    <a href="#formation" class="text-gray-600">Formations</a>
                 </p>
                 <p class="mb-4">
-                    <a href="#!" class="text-gray-600">Compétences</a>
+                    <a href="#competences" class="text-gray-600">Compétences</a>
                 </p>
                 <p class="mb-4">
-                    <a href="#!" class="text-gray-600">Projets</a>
-                </p>
-                <p>
-                    <a href="#!" class="text-gray-600">Contact</a>
+                    <a href="#projets" class="text-gray-600">Projets</a>
                 </p>
             </div>
             <div class="">

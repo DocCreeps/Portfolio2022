@@ -5,13 +5,11 @@
             <div class="flex justify-between">
                 <div class="flex space-x-7">
                     <div>
-                        <!-- Website Logo -->
                         <a href="#" class="flex items-center py-4 px-2">
                             <span class="font-semibold text-gray-500 text-lg">Dorian Vericel</span>
                         </a>
                     </div>
 
-                    <!-- Primary Navbar items -->
                     <div class="hidden md:flex items-center space-x-1">
                         <ul class="navbar-nav mr-auto justify-center items-center lg:flex">
                         <li class="nav-item">
@@ -36,7 +34,7 @@
                     </div>
                 </div>
 
-                <!-- Mobile menu button -->
+
                 <div class="md:hidden flex items-center">
                     <button class="outline-none mobile-menu-button">
                         <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 "
@@ -75,8 +73,7 @@
             });
         </script>
     </nav>
-    <!-- Navbar -->
-    <!-- Background image -->
+
     <div
         class="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover h-90 lg:h-screen"
         style="background-image: url({{asset('Picture/headerBackground.png')}})"
