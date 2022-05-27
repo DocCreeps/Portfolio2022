@@ -9,13 +9,14 @@
 <div class="">
         <div class="rounded-lg shadow-lg bg-white max-w-sm">
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+                <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/logosrv.jpg')}}" alt="logo projet Arkanda"/>
             </a>
             <div class="p-6">
                 <h4 class="text-gray-900 text-xl font-medium mb-2">Arkanda</h4>
                 <p class="text-gray-700 text-base mb-4">
                     Projet en cours 🛠️<br/> Projet avec des amis qui à pour but la création d'un serveur mini jeux sur le jeu minecraft.
                 </p>
+{{--                <iframe src="https://discord.com/widget?id=569957594794426378&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe><br/>--}}
                 <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Le Projet</button>
             </div>
         </div>
@@ -23,7 +24,7 @@
     <div class="">
         <div class="rounded-lg shadow-lg bg-white max-w-sm">
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+                <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/gestpass.png')}}" alt="logo projet Gest Pass"/>
             </a>
             <div class="p-6">
                 <h4 class="text-gray-900 text-xl font-medium mb-2">Gest Pass</h4>
@@ -45,12 +46,12 @@
         <div class="">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                    <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/Blog.png')}}" alt="logo projet Blog"/>
                 </a>
                 <div class="p-6">
                     <h4 class="text-gray-900 text-xl font-medium mb-2">Blog</h4>
                     <p class="text-gray-700 text-base mb-4">
-                        Projet en cours 🛠️<br/> Création d'un blog.<br/>
+                        Projet en cours 🛠️<br/> Création d'un blog permettant la création et consultation d'article.<br/>
                         techno : <br/>
                         Laravel, Tailwind, Mariadb
                     </p>
@@ -61,7 +62,7 @@
         <div class="">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                    <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/Cyberveillepng.png')}}" alt="logo projet cyber veille"/>
                 </a>
                 <div class="p-6">
                     <h4 class="text-gray-900 text-xl font-medium mb-2">Cyber Veille</h4>
