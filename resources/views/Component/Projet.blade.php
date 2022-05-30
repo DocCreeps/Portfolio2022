@@ -9,7 +9,7 @@
 <div class="">
         <div class="rounded-lg shadow-lg bg-white max-w-sm">
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/logosrv.jpg')}}" alt="logo projet Arkanda"/>
+                <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/logosrv.jpg')}}" alt="logo projet Arkanda" title="Logo Arkanda"/>
             </a>
             <div class="p-6">
                 <h4 class="text-gray-900 text-xl font-medium mb-2">Arkanda</h4>
@@ -24,7 +24,7 @@
     <div class="">
         <div class="rounded-lg shadow-lg bg-white max-w-sm">
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/gestpass.png')}}" alt="logo projet Gest Pass"/>
+                <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/gestpass.png')}}" alt="logo projet Gest Pass"   title="Logo Gest Pass"/>
             </a>
             <div class="p-6">
                 <h4 class="text-gray-900 text-xl font-medium mb-2">Gest Pass</h4>
@@ -46,7 +46,7 @@
         <div class="">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/Blog.png')}}" alt="logo projet Blog"/>
+                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/Blog.png')}}" alt="logo projet Blog" title="Logo Blog"/>
                 </a>
                 <div class="p-6">
                     <h4 class="text-gray-900 text-xl font-medium mb-2">Blog</h4>
@@ -62,7 +62,7 @@
         <div class="">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/Cyberveillepng.png')}}" alt="logo projet cyber veille"/>
+                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/Cyberveillepng.png')}}" alt="logo projet cyber veille" title="Logo Cyber Veille"/>
                 </a>
                 <div class="p-6">
                     <h4 class="text-gray-900 text-xl font-medium mb-2">Cyber Veille</h4>
@@ -85,7 +85,7 @@
         <div class="">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
                 <a href="#"  target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/.jpg')}}" alt="logo projet isidrive"/>
+                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/.jpg')}}" alt="logo projet isidrive" title="Logo isidrive"/>
                 </a>
                 <div class="p-6">
                     <h4 class="text-gray-900 text-xl font-medium mb-2">IsiDrive</h4>
@@ -99,7 +99,7 @@
         </div>
         <div class="">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
-                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/zjd.png')}}" alt="logo projet zjd"/>
+                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/zjd.png')}}" alt="logo projet zjd" title="Logo ZJD"/>
                 <div class="p-6">
                     <h4 class="text-gray-900 text-xl font-medium mb-2">ZJD Virtualisation</h4>
                     <p class="text-gray-700 text-base mb-4">
@@ -119,7 +119,7 @@
         <div class="">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
                 <a href="https://github.com/DocCreeps/GSB-Gestion_Notes_De_Frais"  target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/gsb.jpg')}}" alt="logo projet gsb"/>
+                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/gsb.jpg')}}" alt="logo projet gsb" title="Logo GSB"/>
                 </a>
                 <div class="p-6">
                     <h4 class="text-gray-900 text-xl font-medium mb-2">GSB</h4>
@@ -134,7 +134,7 @@
         <div class="">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
                 <a href="https://github.com/DocCreeps/roulette" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/roulette.jpg')}}" alt="logo projet roulette"/>
+                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/roulette.jpg')}}" alt="logo projet roulette" title="Logo Roulette"/>
                 </a>
                 <div class="p-6">
                     <h4 class="text-gray-900 text-xl font-medium mb-2">Roulette</h4>
