@@ -31,7 +31,7 @@
                 <p class="text-gray-700 text-base mb-4">
                     Projet en cours 🛠️<br/> Création d'un gestionnaire de mot de passe. <br/>
                     techno : <br/>
-                    Laravel, Tailwind, Mariadb
+                    <b>Laravel, Tailwind, Mariadb</b>
                 </p>
                 <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Demo</button>
             </div>
@@ -53,7 +53,7 @@
                     <p class="text-gray-700 text-base mb-4">
                         Projet en cours 🛠️<br/> Création d'un blog permettant la création et consultation d'article.<br/>
                         techno : <br/>
-                        Laravel, Tailwind, Mariadb
+                        <b>Laravel, Tailwind, Mariadb</b>
                     </p>
                     <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Le Projet</button>
                 </div>
@@ -69,7 +69,7 @@
                     <p class="text-gray-700 text-base mb-4">
                         Projet en cours 🛠️<br/>Application web permettant de faire une veille technologique et de classifier les articles. <br/>
                         techno : <br/>
-                        Laravel, Tailwind, Mariadb
+                        <b>Laravel, Tailwind, Mariadb</b>
                     </p>
                     <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Le Projet</button>
                 </div>
@@ -92,7 +92,7 @@
                     <p class="text-gray-700 text-base mb-4">
                         Application web et mobile de gestion d'un drive.<br/>
                         techno : <br/>
-                        PHP, JS, C#, SQL SERVER
+                       <b>PHP, JS, C#, SQL SERVER</b>
                     </p>
                 </div>
             </div>
@@ -106,7 +106,7 @@
                         Projet en groupes durant mon année de Licence RPI  <br/>
                         Création d'une entreprise qui propose une solution de virtualisation avec docker. <br/>
                         techno : <br/>
-                        PHP(symphony), JS, dockers, mariadb
+                        <b>PHP(symphony), JS, dockers, mariadb</b>
                     </p>
                 </div>
             </div>
@@ -126,7 +126,7 @@
                     <p class="text-gray-700 text-base mb-4">
                         Application web de gestion des notes de frais.<br/>
                         techno : <br/>
-                        PHP, JS, MYSQL
+                        <b>PHP, JS, MYSQL</b>
                     </p>
                 </div>
             </div>
@@ -141,7 +141,7 @@
                     <p class="text-gray-700 text-base mb-4">
                         Projet BTS qui consistais à la création du jeux de la roulette. <br/>
                         techno : <br/>
-                        PHP, JS, MYSQL
+                        <b>PHP, JS, MYSQL</b>
                     </p>
                 </div>
             </div>
