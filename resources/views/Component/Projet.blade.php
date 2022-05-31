@@ -1,15 +1,15 @@
 
 <section id="projets">
-    <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 ">Projets</h1>
+    <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 underline">Projets</h1>
 
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3" id="ProjetPerso">Projets Perso</h3>
+    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetPerso">Projets Perso</h3>
 
     <div class="text-center items-center flex justify-around">
 
 <div class="">
         <div class="rounded-lg shadow-lg bg-white max-w-sm">
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/logosrv.jpg')}}" alt="logo projet Arkanda" title="Logo Arkanda"/>
+                <img class="rounded-full mx-auto animate-pulse" src="{{asset('Picture/Projets/logosrv.jpg')}}" alt="logo projet Arkanda" title="Logo Arkanda"/>
             </a>
             <div class="p-6">
                 <h4 class="text-gray-900 text-xl font-medium mb-2">Arkanda</h4>
@@ -77,9 +77,9 @@
         </div>
     </div>
 
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3" id="ProjetScolaire">Projets Scolaire</h3>
+    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetScolaire">Projets Scolaire</h3>
 
-    <h4 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3" id="ProjetMaster">Projets Licence et Master</h4>
+    <h4 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetMaster">Projets Licence et Master</h4>
     <div class="text-center items-center flex justify-around mt-20 mb-20">
 
         <div class="">
@@ -113,7 +113,7 @@
         </div>
     </div>
 
-    <h4 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3" id="projetBts">Projets BTS</h4>
+    <h4 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="projetBts">Projets BTS</h4>
     <div class="text-center items-center flex justify-around mt-20 mb-20">
 
         <div class="">

@@ -12,7 +12,7 @@
         </div>
         <div class="flex ml-32">
 
-            <a href="https://www.linkedin.com/in/dorian-vericel-576461180/"  target="_blank"  class=" mr-12 text-blue-500">
+            <a href="https://www.linkedin.com/in/dorian-vericel-576461180/"  target="_blank"  class=" mr-12 text-blue-500 hover:animate-bounce">
                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
                      class="w-14" role="img" xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 448 512">
@@ -21,7 +21,7 @@
                     </path>
                 </svg>
             </a>
-            <a href="https://github.com/DocCreeps" target="_blank" class="text-gray-600">
+            <a href="https://github.com/DocCreeps" target="_blank" class="text-gray-600 hover:animate-bounce">
                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
                      class="w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                     <path fill="currentColor"

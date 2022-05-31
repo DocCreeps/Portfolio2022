@@ -1,9 +1,9 @@
-<section id="competences">
+<hr id="competences">
 
-    <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3">Compétences</h1>
+    <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 underline">Compétences</h1>
 
 
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3" id="langages">Langages</h3>
+    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="langages">Langages</h3>
 <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
     <!--Card 1-->
     <div class="rounded overflow-hidden shadow-lg">
@@ -101,7 +101,7 @@
     </div>
 </div>
 
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3" id="framework">Framework</h3>
+    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="framework">Framework</h3>
     <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         <!--Card 1-->
         <div class="rounded overflow-hidden shadow-lg">
@@ -169,7 +169,7 @@
     </div>
 
 
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3" id="OS">OS</h3>
+    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="OS">OS</h3>
     <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         <!--Card 1-->
         <div class="rounded overflow-hidden shadow-lg">
@@ -199,7 +199,9 @@
 
 
     </div>
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3" id="outils">Outils</h3>
+
+    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="outils">Outils</h3>
+
     <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         <!--Card 1-->
         <div class="rounded overflow-hidden shadow-lg ">

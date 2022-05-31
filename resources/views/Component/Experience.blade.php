@@ -1,5 +1,5 @@
 <Section id="xpPro" class="mt-20">
-    <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-6">Experiences Professionnelles</h1>
+    <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-6 underline">Experiences Professionnelles</h1>
 
     <div class="flex justify-center items-center ">
         <ol class="border-l-2 border-purple-600 text-center">
