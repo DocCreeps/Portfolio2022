@@ -32,25 +32,30 @@
         </div>
 
     </div>
-    <form id="formContact">
+    <form>
     <div class="">
         <div>
             <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
             <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                   type="text" placeholder="">
+                   type="text" id="Name" name="Name" placeholder="">
         </div>
         <div class="mt-8">
             <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
             <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                   type="text">
+                   type="email" id="email" name="email">
+        </div>
+        <div class="mt-8">
+            <span class="uppercase text-sm text-gray-600 font-bold">Objet</span>
+            <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                   type="text" id="object" name="object">
         </div>
         <div class="mt-8">
             <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
             <textarea
-                class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+                class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="Message" name="Message"></textarea>
         </div>
         <div class="mt-8">
-            <button
+            <button type="submit"
                 class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
                 Envoyer
             </button>
