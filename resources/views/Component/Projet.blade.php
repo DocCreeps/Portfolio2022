@@ -9,7 +9,7 @@
 <div class="">
         <div class="rounded-lg shadow-lg bg-white max-w-sm">
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                <img class="rounded-full mx-auto animate-pulse" src="{{asset('Picture/Projets/logosrv.jpg')}}" alt="logo projet Arkanda" title="Logo Arkanda"/>
+                <img class="rounded-full mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/logosrv.jpg')}}" alt="logo projet Arkanda" title="Logo Arkanda"/>
             </a>
             <div class="p-6">
                 <h4 class="text-gray-900 text-xl font-medium mb-2">Arkanda</h4>
