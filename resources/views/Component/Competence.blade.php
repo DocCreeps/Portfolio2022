@@ -1,4 +1,4 @@
-<hr id="competences">
+<section id="competences">
 
     <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 underline">Compétences</h1>
 
@@ -47,8 +47,8 @@
         <div class="px-6 py-4">
             <div class="font-bold text-center text-xl mb-2">Python</div>
 
-            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
-                <div class="h-4 bg-yellow-300 rounded-full dark:bg-yellow-300" style="width: 45%"></div>
+            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700 ">
+                <div class="h-4 bg-yellow-300 rounded-full dark:bg-yellow-300" style="width: 45%;"></div>
             </div>
         </div>
 
@@ -112,7 +112,7 @@
                    Framework PHP
                 </p>
                 <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
-                    <div class="h-4 bg-orange-500 rounded-full dark:bg-orange-500" style="width: 55%"></div>
+                    <div class="h-4 bg-gradient-to-br from-orange-500 to-orange-800 rounded-full dark:bg-orange-500" style="width: 55%"></div>
                 </div>
             </div>
         </div>
@@ -125,7 +125,7 @@
                     Framework JS
                 </p>
                 <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
-                    <div class="h-4 bg-blue-300 rounded-full dark:bg-blue-300" style="width: 50%"></div>
+                    <div id="bar" class="h-4 bg-blue-300 rounded-full dark:bg-blue-300" style="width: 50%"></div>
                 </div>
             </div>
         </div>
@@ -153,6 +153,8 @@
                 <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
                     <div class="h-4 bg-green-400 rounded-full dark:bg-green-400" style="width: 50%"></div>
                 </div>
+
+
             </div>
         </div>
 
@@ -280,3 +282,10 @@
     </div>
 
 </section>
+{{--<script src="//unpkg.com/alpinejs" defer></script>--}}
+
+{{--<div class=" bg-gray-200 h-3 w-full rounded-full" x-data="{val: 50, start: 1}" x-init="setTimeout(()=> start = val, 100)">--}}
+{{--    <div class="  bg-gradient-to-br from-red-500 to-red-800 h-3 w-1 rounded-full  transition-all " :style="`width: ${start}%; transition: 17s;`">--}}
+{{--    </div>--}}
+{{--</div>--}}
+

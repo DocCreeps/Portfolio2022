@@ -92,7 +92,7 @@
     <div class="container mx-auto px-6 md:px-12 xl:px-30">
         <div class="text-center text-gray-800">
             <div class="block rounded-lg shadow-lg px-6 py-12 md:py-16 md:px-12" style="margin-top: -170px; background: hsla(0, 0%, 100%, 0.7); backdrop-filter: blur(30px);">
-                <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">Portfolio Dorian VERICEL <br /><span class="text-blue-600" id="typed-text"></span><span class="cursor">&nbsp;</span></h1>
+                <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">Portfolio Dorian VERICEL <br /><span class="text-blue-600">Développeur </span><span class="text-blue-600" id="typed-text"></span><span class="cursor">&nbsp;</span></h1>
             </div>
         </div>
     </div>
@@ -102,7 +102,7 @@
     const typedTextSpan = document.querySelector("#typed-text");
     const cursorSpan = document.querySelector(".cursor");
 
-    const textArray = ["Développeur Web", "Développeur Full Stack"];
+    const textArray = ["Web", "Full Stack"];
     const typingDelay = 150;
     const erasingDelay = 125;
     const newTextDelay = 2000; // Delay between current and next text

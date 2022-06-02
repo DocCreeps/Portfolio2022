@@ -25,6 +25,7 @@
                     </div>
                 </div>
             </li>
+
             <li>
                 <div class="md:flex flex-start">
                     <div class="bg-purple-600 w-6 h-6 flex items-center justify-center rounded-full -ml-3">
@@ -46,6 +47,19 @@
                     </div>
                 </div>
             </li>
+
+            <li>
+                <div class="md:flex flex-start" id="buttonplus">
+                    <div class="bg-purple-600 w-20 h-20 flex items-center justify-center rounded-full -ml-10">
+                        <button type="button" id="affiche" class="text-white bg-purple-600 hover:bg-purple-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-purple-600 dark:hover:bg-purple-600 dark:focus:ring-blue-800">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </li>
+            <div id="masque" style="display: none;">
             <li>
                 <div class="md:flex flex-start">
                     <div class="bg-purple-600 w-6 h-6 flex items-center justify-center rounded-full -ml-3">
@@ -174,6 +188,25 @@
                     </div>
                 </div>
             </li>
+            </div>
         </ol>
     </div>
 </Section>
+
+<script>
+    let affiche1 = document.getElementById("affiche");
+    let masque = document.getElementById("masque");
+    let buttonplus = document.getElementById("buttonplus");
+
+    affiche1.addEventListener("click", () => {
+        if(getComputedStyle(masque).display !== "none"){
+            masque.style.display = "none";
+            buttonplus.style.display = "block";
+        } else {
+            masque.style.display = "block";
+            buttonplus.style.display = "none";
+        }
+
+    })
+
+</script>

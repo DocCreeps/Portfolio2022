@@ -7,7 +7,7 @@
 
         </div>
         <div class="mb-24">
-            <h2 class="text-4xl lg:text-4xl font-bold leading-tight">Vous pouvez aussi me retrouver sur  </h2>
+            <h2 class="text-4xl lg:text-4xl font-bold leading-tight">Vous pouvez aussi me retrouver sur </h2>
 
         </div>
         <div class="flex ml-32">
