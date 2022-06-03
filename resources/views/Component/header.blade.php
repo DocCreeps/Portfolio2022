@@ -74,14 +74,8 @@
         </script>
     </nav>
 
-    <div
-        class="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover h-90 lg:h-screen"
-        style="background-image: url({{asset('Picture/headerBackground.png')}})"
-    >
-        <div
-            class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-            style="background-color: rgba(0, 0, 0, 0.75)"
-        >
+    <div class="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover h-screen lg:h-screen" style="background-image: url({{asset('Picture/headerBackground.png')}})">
+        <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style="background-color: rgba(0, 0, 0, 0.75)">
             <div class="flex justify-center items-center h-full">
 
             </div>
@@ -92,7 +86,10 @@
     <div class="container mx-auto px-6 md:px-12 xl:px-30">
         <div class="text-center text-gray-800">
             <div class="block rounded-lg shadow-lg px-6 py-12 md:py-16 md:px-12" style="margin-top: -170px; background: hsla(0, 0%, 100%, 0.7); backdrop-filter: blur(30px);">
-                <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">Portfolio Dorian VERICEL <br /><span class="text-blue-600">Développeur </span><span class="text-blue-600" id="typed-text"></span><span class="cursor">&nbsp;</span></h1>
+                <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">Portfolio Dorian VERICEL <br /><span class="text-blue-600">Développeur </span><span class="text-blue-600" id="typed-text"></span><span class="cursor" style= "display: inline-block;
+                                                                                                                                                                                                                                   margin-left: 0.1rem;
+                                                                                                                                                                                                                                   width: 4px;
+                                                                                                                                                                                                                                   animation: blink 1s infinite; background-color: blue;">&nbsp;</span></h1>
             </div>
         </div>
     </div>
@@ -103,8 +100,8 @@
     const cursorSpan = document.querySelector(".cursor");
 
     const textArray = ["Web", "Full Stack"];
-    const typingDelay = 150;
-    const erasingDelay = 125;
+    const typingDelay = 200;
+    const erasingDelay = 175;
     const newTextDelay = 2000; // Delay between current and next text
     let textArrayIndex = 0;
     let charIndex = 0;
@@ -140,3 +137,21 @@
         if(textArray.length) setTimeout(type, newTextDelay + 250);
     });
 </script>
+<style>
+
+    .container p span.cursor {
+        animation: blink 1s infinite;
+    }
+    .container p span.cursor.typing {
+        animation: none;
+    }
+
+    @keyframes blink {
+        0%  { background-color: #000; }
+        49% { background-color: #000; }
+        50% { background-color: transparent; }
+        99% { background-color: transparent; }
+        100%  { background-color: #000; }
+    }
+
+</style>
