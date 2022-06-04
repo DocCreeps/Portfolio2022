@@ -630,9 +630,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-full {
   height: 100%;
 }
-.h-24 {
-  height: 6rem;
-}
 .h-screen {
   height: 100vh;
 }
@@ -1398,16 +1395,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-bottom: 4rem;
   }
 
-  .md\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .md\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
-  }
-
   .md\:text-left {
     text-align: left;
   }
@@ -1429,48 +1416,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:h-screen {
     height: 100vh;
-  }
-
-  .lg\:h-96 {
-    height: 24rem;
-  }
-
-  .lg\:h-3\/4 {
-    height: 75%;
-  }
-
-  .lg\:h-1\/4 {
-    height: 25%;
-  }
-
-  .lg\:h-12 {
-    height: 3rem;
-  }
-
-  .lg\:h-auto {
-    height: auto;
-  }
-
-  .lg\:h-fit {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-
-  .lg\:h-full {
-    height: 100%;
-  }
-
-  .lg\:h-1\.5 {
-    height: 0.375rem;
-  }
-
-  .lg\:h-1 {
-    height: 0.25rem;
-  }
-
-  .lg\:h-5\/6 {
-    height: 83.333333%;
   }
 
   .lg\:grid-cols-3 {
@@ -1513,11 +1458,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .xl\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
-  }
-
-  .xl\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 
   .xl\:text-7xl {
