@@ -114,37 +114,65 @@
     </div>
 
     <h4 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="projetBts">Projets BTS</h4>
-    <div class="text-center items-center flex justify-around mt-20 mb-20">
 
-        <div class="">
-            <div class="rounded-lg shadow-lg bg-white max-w-sm">
-                <a href="https://github.com/DocCreeps/GSB-Gestion_Notes_De_Frais"  target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/gsb.jpg')}}" alt="logo projet gsb" title="Logo GSB"/>
-                </a>
-                <div class="p-6">
-                    <h4 class="text-gray-900 text-xl font-medium mb-2">GSB</h4>
-                    <p class="text-gray-700 text-base mb-4">
-                        Application web de gestion des notes de frais.<br/>
-                        techno : <br/>
-                        <b>PHP, JS, MYSQL</b>
-                    </p>
-                </div>
+
+    <div class="container my-12 mx-auto px-4 md:px-12">
+        <div class="flex flex-wrap -mx-1 lg:-mx-4">
+
+            <!-- Column -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
+
+                <!-- Article -->
+                <article class="overflow-hidden rounded-lg shadow-lg">
+
+                    <a href="https://github.com/DocCreeps/roulette" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                        <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/roulette.jpg')}}" alt="logo projet roulette" title="Logo Roulette"/>
+                    </a>
+
+                    <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
+                        <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Roulette</h4>
+                    </header>
+
+                    <footer class=" items-center justify-between text-center leading-none">
+                        <p class="text-gray-700 text-center text-base mb-4">
+                            Projet BTS qui consistais à la création du jeux de la roulette. <br/>
+                            techno : <br/>
+                            <b>PHP, JS, MYSQL</b>
+                        </p>
+                    </footer>
+
+                </article>
+                <!-- END Article -->
+
             </div>
-        </div>
-        <div class="">
-            <div class="rounded-lg shadow-lg bg-white max-w-sm">
-                <a href="https://github.com/DocCreeps/roulette" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                    <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/roulette.jpg')}}" alt="logo projet roulette" title="Logo Roulette"/>
-                </a>
-                <div class="p-6">
-                    <h4 class="text-gray-900 text-xl font-medium mb-2">Roulette</h4>
-                    <p class="text-gray-700 text-base mb-4">
-                        Projet BTS qui consistais à la création du jeux de la roulette. <br/>
-                        techno : <br/>
-                        <b>PHP, JS, MYSQL</b>
-                    </p>
-                </div>
+            <!-- END Column -->
+            <!-- Column -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
+
+                <!-- Article -->
+                <article class="overflow-hidden rounded-lg shadow-lg">
+
+                    <a href="https://github.com/DocCreeps/roulette" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                        <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/gsb.jpg')}}" alt="logo projet roulette" title="Logo Roulette"/>
+                    </a>
+
+                    <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
+                        <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">GSB</h4>
+                    </header>
+
+                    <footer class=" items-center justify-between text-center leading-none">
+                        <p class="text-gray-700 text-base mb-4">
+                            Application web de gestion des notes de frais.<br/>
+                            techno : <br/>
+                            <b>PHP, JS, MYSQL</b>
+                        </p>
+                    </footer>
+
+                </article>
+                <!-- END Article -->
+
             </div>
+            <!-- END Column -->
         </div>
     </div>
 </section>
