@@ -1,6 +1,5 @@
-responsive projets A FINIR DE MODIFIER
-
-
+responsive projets A VERIF
+taille image projet a regler
 navbar animation code quand change categorie
 
 RESPONSIVE MOBILE HEADER, FORMATION, EXPERIENCE
@@ -10,6 +9,7 @@ bouton pour afficher masque les experience et laisser les alternance A VERIF POU
 mail a modifier
 
 bug burger menu quand plus responsive
+bug burger menu mobile quand selectionne un truc ne s'enleve pas
 
 verifier design
 
@@ -18,8 +18,6 @@ verifier code
 logo et picture rajouter title
 
 rajouter des id pour les bloc VERIF
-
-
 
 voir pou animation js sur les card quand ont passe la souris dessus ou cacher d'autre easter egg
 

@@ -14,7 +14,7 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="https://github.com/DocCreeps/roulette" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-full mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/logosrv.jpg')}}" alt="logo projet Arkanda" title="Logo Arkanda"/>
                     </a>
 
@@ -42,8 +42,8 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="https://github.com/DocCreeps/roulette" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                        <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/gestpass.png')}}" alt="logo projet Gest Pass"   title="Logo Gest Pass"/>
+                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                        <img class="rounded-t-lg mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/gestpass.png')}}" alt="logo projet Gest Pass"   title="Logo Gest Pass"/>
                     </a>
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
@@ -70,8 +70,8 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="https://github.com/DocCreeps/roulette" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                        <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/Blog.png')}}" alt="logo projet Blog" title="Logo Blog"/>
+                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                        <img class="rounded-t-lg mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/Blog.png')}}" alt="logo projet Blog" title="Logo Blog"/>
                     </a>
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
@@ -98,8 +98,8 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="https://github.com/DocCreeps/roulette" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                        <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/Cyberveillepng.png')}}" alt="logo projet cyber veille" title="Logo Cyber Veille"/>
+                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                        <img class="rounded-t-lg mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/Cyberveillepng.png')}}" alt="logo projet cyber veille" title="Logo Cyber Veille"/>
                     </a>
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
@@ -137,7 +137,7 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="https://github.com/DocCreeps/roulette" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/isidrive.jpg')}}" alt="logo projet isidrive" title="Logo isidrive"/>
                     </a>
 
@@ -164,7 +164,7 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="https://github.com/DocCreeps/roulette" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/zjd.png')}}" alt="logo projet zjd" title="Logo ZJD"/>
                     </a>
 
@@ -230,8 +230,8 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="https://github.com/DocCreeps/roulette" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                        <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/gsb.jpg')}}" alt="logo projet roulette" title="Logo Roulette"/>
+                    <a href="https://github.com/DocCreeps/GSB-Gestion_Notes_De_Frais" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                        <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/gsb.jpg')}}" alt="logo projet GSB" title="Logo GSB"/>
                     </a>
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
