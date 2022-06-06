@@ -25,7 +25,7 @@
                 <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
                 </div>
                 <div class="order-1  text-center rounded-lg shadow-lg bg-gray-100 w-5/12 px-6 py-4">
-                    <div class="flex  justify-between mb-4">
+                    <div class="flex flex-wrap justify-between mb-4">
                         <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">CNIL</p>
                         <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">08/2019</p>
                     </div>
@@ -40,7 +40,7 @@
                 <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
                 </div>
                 <div class="order-1  text-center rounded-lg shadow-lg bg-gray-100 w-5/12 px-6 py-4">
-                    <div class="flex  justify-between mb-4">
+                    <div class="flex flex-wrap justify-between mb-4">
                         <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">ANSSI</p>
                         <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">02/2019</p>
                     </div>
