@@ -1492,6 +1492,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 1rem;
   }
 
+  .lg\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
