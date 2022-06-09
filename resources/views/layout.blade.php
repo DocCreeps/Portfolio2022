@@ -11,7 +11,7 @@
 {{--<div id = "main" class = "row" >--}}
 {{--    @yield('content')--}}
 {{--</div>--}}
-
+@include('Component.hobby')
 @include('Component.ContactForm')
 @include('Component.footer')
 

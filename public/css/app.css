@@ -645,6 +645,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-screen {
   height: 100vh;
 }
+.h-12 {
+  height: 3rem;
+}
+.h-14 {
+  height: 3.5rem;
+}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -690,6 +696,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-5\/12 {
   width: 41.666667%;
 }
+.w-12 {
+  width: 3rem;
+}
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -710,6 +719,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .flex-wrap {
   flex-wrap: wrap;
+}
+.content-center {
+  align-content: center;
+}
+.content-between {
+  align-content: space-between;
 }
 .items-center {
   align-items: center;
@@ -889,6 +904,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .p-12 {
   padding: 3rem;
 }
+.p-20 {
+  padding: 5rem;
+}
+.p-24 {
+  padding: 6rem;
+}
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -941,6 +962,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pr-2 {
   padding-right: 0.5rem;
+}
+.pl-24 {
+  padding-left: 6rem;
 }
 .text-center {
   text-align: center;
@@ -1063,6 +1087,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-800 {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 .underline {
   -webkit-text-decoration-line: underline;
@@ -1492,11 +1520,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 1rem;
   }
 
-  .lg\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
   .lg\:text-left {
     text-align: left;
   }
@@ -1510,6 +1533,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .xl\:px-32 {
