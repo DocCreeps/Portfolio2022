@@ -514,6 +514,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .col-start-3 {
   grid-column-start: 3;
 }
+.col-start-7 {
+  grid-column-start: 7;
+}
 .col-end-6 {
   grid-column-end: 6;
 }
@@ -531,6 +534,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .col-end-7 {
   grid-column-end: 7;
+}
+.col-end-8 {
+  grid-column-end: 8;
 }
 .mx-auto {
   margin-left: auto;
@@ -1057,6 +1063,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .p-1 {
   padding: 0.25rem;
+}
+.p-5 {
+  padding: 1.25rem;
+}
+.p-14 {
+  padding: 3.5rem;
 }
 .py-4 {
   padding-top: 1rem;

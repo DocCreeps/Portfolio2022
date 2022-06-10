@@ -4,8 +4,7 @@
         <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
             <!-- left -->
             <div class="flex flex-row-reverse md:contents">
-                <div
-                    class="bg-gray-100 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md text-center">
+                <div class="bg-gray-100 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md text-center">
                     <div class="flex flex-wrap justify-between mb-4">
                         <a href="https://www.skyepharma.com/" target="_blank" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Skyepharma</a>
                         <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Saint-Quentin-Fallavier</p>
@@ -30,6 +29,7 @@
             </div>
             <!-- right -->
             <div class="flex md:contents">
+
                 <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
                     <div class="h-full w-6 flex items-center justify-center">
                         <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
