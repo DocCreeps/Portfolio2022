@@ -27,6 +27,9 @@
                         <li class="nav-item">
                         <a href="#projets" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Projets</a>
                         </li>
+                            <li class="nav-item">
+                                <a href="#hobby" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Passe Temps</a>
+                            </li>
                         <li class="nav-item">
                         <a href="#contact" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact</a>
                         </li>
