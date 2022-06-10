@@ -61,6 +61,7 @@
                 <li><a href="#competences" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Compétences</a>
                 </li>
                 <li><a href="#projets" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Projets</a></li>
+                <li><a href="#hobby" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Passe Temps</a></li>
                 <li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact</a></li>
             </ul>
         </div>
@@ -74,7 +75,7 @@
         </script>
     </nav>
 
-    <div class="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover h-screen lg:h-screen" style="background-image: url({{asset('Picture/headerBackground.png')}})">
+    <div class="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover bg-center h-screen lg:h-screen" style="background-image: url({{asset('Picture/headerBackground.png')}})">
         <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style="background-color: rgba(0, 0, 0, 0.75)">
             <div class="flex justify-center items-center h-full">
 
