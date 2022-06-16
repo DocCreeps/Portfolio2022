@@ -12,7 +12,7 @@
         </div>
         <div class="flex ml-32">
 
-            <a href="https://www.linkedin.com/in/dorian-vericel-576461180/"  target="_blank"  class=" mr-12 text-blue-500 hover:animate-bounce">
+            <a href="https://www.linkedin.com/in/dorian-vericel-576461180/"  target="_blank"  class=" mr-12 text-blue-500 hover:animate-bounce" name="Likedin">
                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
                      class="w-14" role="img" xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 448 512">
@@ -21,7 +21,7 @@
                     </path>
                 </svg>
             </a>
-            <a href="https://github.com/DocCreeps" target="_blank" class="text-gray-600 hover:animate-bounce">
+            <a href="https://github.com/DocCreeps" target="_blank" class="text-gray-600 hover:animate-bounce" name="github">
                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
                      class="w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                     <path fill="currentColor"
@@ -35,24 +35,24 @@
     <form id="FormContact" action="{{route('send-mail')}}">
     <div class="">
         <div>
-            <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
+            <label class="uppercase text-sm text-gray-600 font-bold">Full Name</label>
             <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                    type="text" id="Name" name="Name" placeholder="">
         </div>
         <div class="mt-8">
-            <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
+            <label class="uppercase text-sm text-gray-600 font-bold">Email</label>
             <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                    type="email" id="email" name="email">
 
         </div>
 
         <div class="mt-8">
-            <span class="uppercase text-sm text-gray-600 font-bold">Objet</span>
+            <label class="uppercase text-sm text-gray-600 font-bold">Objet</label>
             <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                    type="text" id="object" name="object">
         </div>
         <div class="mt-8">
-            <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
+            <label class="uppercase text-sm text-gray-600 font-bold">Message</label>
             <textarea
                 class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="Message" name="Message"></textarea>
         </div>

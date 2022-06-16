@@ -14,7 +14,7 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <a href="https://discord.gg/JgQ7tjkXUY" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-full mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/logosrv.jpg')}}" alt="logo projet Arkanda" title="Logo Arkanda"/>
                     </a>
 
@@ -42,7 +42,7 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <a href="https://gestpass.dorianvericel.fr" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-t-lg mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/gestpass.png')}}" alt="logo projet Gest Pass"   title="Logo Gest Pass"/>
                     </a>
 
@@ -70,7 +70,7 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <a href="https://blog.dorianvericel.fr" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-t-lg mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/Blog.png')}}" alt="logo projet Blog" title="Logo Blog"/>
                     </a>
 
@@ -98,7 +98,7 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <a href=https://cyberveille.dorianvericel.fr/" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-t-lg mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/Cyberveillepng.png')}}" alt="logo projet cyber veille" title="Logo Cyber Veille"/>
                     </a>
 
@@ -137,9 +137,9 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+
                         <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/isidrive.jpg')}}" alt="logo projet isidrive" title="Logo isidrive"/>
-                    </a>
+
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
                         <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">IsiDrive</h4>
@@ -164,9 +164,9 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+
                         <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/zjd.png')}}" alt="logo projet zjd" title="Logo ZJD"/>
-                    </a>
+
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
                         <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">ZJD Virtualisation</h4>
