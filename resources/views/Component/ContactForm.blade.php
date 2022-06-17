@@ -35,7 +35,7 @@
     <form id="FormContact" action="{{route('send-mail')}}">
     <div class="">
         <div>
-            <label class="uppercase text-sm text-gray-600 font-bold">Full Name</label>
+            <label class="uppercase text-sm text-gray-600 font-bold">Nom Prénom</label>
             <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                    type="text" id="Name" name="Name" placeholder="">
         </div>
