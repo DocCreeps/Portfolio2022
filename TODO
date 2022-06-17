@@ -1,15 +1,16 @@
-responsive projets A VERI
-
 title section cacher par nav
 
 taille image header a regler pour responsive
 
 Annimation hobby faire apparaitre text
+
 navbar animation code quand change categorie
 
+
+voir pour mettre des svg a la place des images dans competence
 SVG HOBBY CHANGER CELUI DE BOOK
 
-RESPONSIVE MOBILE HEADER, EXPERIENCE, formation texte qui depasse
+RESPONSIVE MOBILE HEADER
 
 bouton pour afficher masque les experiences et laisser les alternance A VERIF POUR ANIMATION RESPONSIVE A FAIRE
 
@@ -20,7 +21,7 @@ bug burger menu mobile quand selectionne un truc ne s'enleve pas
 
 verifier design
 
-rajouter des id pour les bloc
+rajouter des id pour les bloc VERIF
 
 voir pou animation js sur les card quand ont passe la souris dessus ou cacher d'autre easter egg
 

@@ -10,7 +10,7 @@
                     <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Lyon 07</p>
                     <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">2019/2023</p>
                 </div>
-                <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Licences et Master</h3>
+                <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Licences et Master</h2>
                 <p class="text-gray-700 mb-2 ">J'ai effectuer ma licence RPI(Responsable de Projets Informatique) <br/> et mon Master ESI(Expert en Système d'Informations) <br/>Option développeur au seins de l'école Isitech en alternance.</p>
 
 
@@ -40,7 +40,7 @@
                     <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">CNIL</p>
                     <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">08/2019</p>
                 </div>
-                <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> MOOC RGPD</h3>
+                <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> MOOC RGPD</h2>
                 <p class="text-gray-700 mb-2">Mooc sur les bonnes pratiques RGPD .</p>
             </div>
         </div>
@@ -52,7 +52,7 @@
                     <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">ANSSI</p>
                     <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">02/2019</p>
                 </div>
-                <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> MOOC Sec Num Académie</h3>
+                <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> MOOC Sec Num Académie</h2>
                 <p class="text-gray-700 mb-2">Mooc d'initiation à la cybersécurité.</p>
             </div>
             <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -81,7 +81,7 @@
                     <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Villefranche-sur-Saône</p>
                     <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">2017/2019</p>
                 </div>
-                <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> BTS SIO option SLAM</h3>
+                <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> BTS SIO option SLAM</h2>
                 <p class="text-gray-700 mb-2">J'ai effectuer mon BTS SIO (Services Informatiques aux Organisations) <br/>Option SLAM(Solution Logiciels et Applications Metiers) <br/>au Centre Scolaire Notre Dame a Villefranche-sur-Saône.<br/> Avec ce BTS j'ai pu apprendre les bases de la programmations  </p>
 
             </div>
@@ -95,7 +95,7 @@
                     <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm ">Saint-Étienne</p>
                     <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm ">2014/2017</p>
                 </div>
-                <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> BEP BAC Pro SEN option TR</h3>
+                <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> BEP BAC Pro SEN option TR</h2>
                 <p class="text-gray-700 mb-2 overflow-auto">J'ai effectuer mon BEP et mon BAC Professionnel SEN(Système Électronique et Numérique) <br/>option TR (Telecom et Réseaux) au sein du lycée Le marais sainte thérèse a Saint-Étienne.<br/> Ce BAC Pro m'a appris les bases de l'informatique et de l'électronique </p>
 
 

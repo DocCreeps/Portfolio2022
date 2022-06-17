@@ -2,7 +2,7 @@
 <section id="projets">
     <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 underline">Projets</h1>
 
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetPerso">Projets Perso</h3>
+    <h2 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetPerso">Projets Perso</h2>
 
 
     <div class="container my-12 mx-auto px-4 md:px-12">
@@ -19,7 +19,7 @@
                     </a>
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
-                        <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Arkanda</h4>
+                        <h3 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Arkanda</h3>
                     </header>
 
                     <footer class=" items-center justify-between text-center leading-none mb-5">
@@ -47,7 +47,7 @@
                     </a>
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
-                        <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Gest Pass</h4>
+                        <h3 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Gest Pass</h3>
                     </header>
 
                     <footer class=" items-center justify-between text-center leading-none mb-5">
@@ -75,7 +75,7 @@
                     </a>
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
-                        <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Blog</h4>
+                        <h3 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Blog</h3>
                     </header>
 
                     <footer class=" items-center justify-between text-center leading-none mb-5">
@@ -103,7 +103,7 @@
                     </a>
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
-                        <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Cyber Veille</h4>
+                        <h3 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Cyber Veille</h3>
                     </header>
 
                     <footer class=" items-center justify-between text-center leading-none mb-5">
@@ -124,9 +124,9 @@
         </div>
     </div>
 
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetScolaire">Projets Scolaire</h3>
+    <h2 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetScolaire">Projets Scolaire</h2>
 
-    <h4 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetMaster">Projets Licence et Master</h4>
+    <h3 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetMaster">Projets Licence et Master</h3>
 
     <div class="container my-12 mx-auto px-4 md:px-12">
         <div class="flex flex-wrap -mx-1 lg:-mx-4">
@@ -191,7 +191,7 @@
 
 
 
-    <h4 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="projetBts">Projets BTS</h4>
+    <h3 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="projetBts">Projets BTS</h3>
 
 
     <div class="container my-12 mx-auto px-4 md:px-12">
