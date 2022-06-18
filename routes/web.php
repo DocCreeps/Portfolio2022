@@ -1,7 +1,10 @@
 <?php
 
 
+
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,5 +32,5 @@ Route::get('send-mail', function (Request $request) {
     ];
 
     Mail::to('dorian.vericel0546@gmail.com')->send(new \App\Mail\ContactMail($contacts));
-    return redirect('/');
+    return redirect::to(URL::previous()."#contact");
 })->name('send-mail');

@@ -33,28 +33,40 @@
 
     </div>
     <form id="FormContact" action="{{route('send-mail')}}">
+        @csrf
     <div class="">
         <div>
             <label for="Name" class="uppercase text-sm text-gray-600 font-bold">Nom Prénom</label>
             <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                    type="text" id="Name" name="Name" placeholder="">
+            @if ($errors->has('Name'))
+                <span class="text-danger">{{ $errors->first('Name') }}</span>
+            @endif
         </div>
         <div class="mt-8">
             <label for="email" class="uppercase text-sm text-gray-600 font-bold">Email</label>
             <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                    type="email" id="email" name="email">
-
+            @if ($errors->has('email'))
+                <span class="text-danger">{{ $errors->first('email') }}</span>
+            @endif
         </div>
 
         <div class="mt-8">
             <label for="object" class="uppercase text-sm text-gray-600 font-bold">Objet</label>
             <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                    type="text" id="object" name="object">
+            @if ($errors->has('object'))
+                <span class="text-danger">{{ $errors->first('object') }}</span>
+            @endif
         </div>
         <div class="mt-8">
             <label for="Message" class="uppercase text-sm text-gray-600 font-bold">Message</label>
             <textarea
                 class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="Message" name="Message"></textarea>
+            @if ($errors->has('Message'))
+                <span class="text-danger">{{ $errors->first('Message') }}</span>
+            @endif
         </div>
         <div class="mt-8">
             <button type="submit"

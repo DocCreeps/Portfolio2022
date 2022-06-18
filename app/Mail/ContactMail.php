@@ -6,6 +6,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Http\Request;
 
 class ContactMail extends Mailable
 {
@@ -28,8 +29,14 @@ class ContactMail extends Mailable
      *
      * @return $this
      */
-    public function build()
+    public function build(Request $ValideForm)
     {
+        $ValideForm->validate([
+            'Name'=> 'required',
+            'email'=> 'required|email',
+            'object'=> 'required',
+            'Message'=> 'required',
+        ]);
 
         return $this->subject('Portfolio contact Fomulaire')
             ->view('mail.Mail');
