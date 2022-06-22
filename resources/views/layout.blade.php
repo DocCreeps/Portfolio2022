@@ -3,9 +3,9 @@
 @include('Component.About')
 @include('Component.Experience')
 @include('Component.Formation')
-
-@include('Component.Competence')
 @include('Component.Projet')
+@include('Component.Competence')
+
 
 
 {{--<div id = "main" class = "row" >--}}

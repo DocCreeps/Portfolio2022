@@ -1,27 +1,29 @@
-responsive projets A VERIF
-lien nom section cacher par nav
-Refaire les formation avec le meme template que experience pour le responsive
-taille image header a regler
-Annimation hobby faie apparaitre text ou combo box au clique avec les dernier pour exemple
+title section cacher par nav
+Notification quand mail envoyer et quand probleme sur mail
+laisser contact afficher meme si pas tous champ rempli
+
+taille image header a regler pour responsive
+
+Annimation hobby faire apparaitre text
+
 navbar animation code quand change categorie
 
-SVG HOBBY CHANGER CELUI DE BOOK Rajouter modal avec les derniers comme exemple
 
-RESPONSIVE MOBILE HEADER, EXPERIENCE, formation texte qui depasse
+voir pour mettre des svg a la place des images dans competence
+SVG HOBBY CHANGER CELUI DE BOOK
 
-bouton pour afficher masque les experience et laisser les alternance A VERIF POUR ANIMATION RESPONSIVE A FAIRE
+RESPONSIVE MOBILE HEADER
+
+bouton pour afficher masque les experiences et laisser les alternance A VERIF POUR ANIMATION RESPONSIVE A FAIRE
 
 
 bug burger menu quand plus responsive
+
 bug burger menu mobile quand selectionne un truc ne s'enleve pas
 
 verifier design
 
-verifier code
-
-logo et picture rajouter title
-
-rajouter des id pour les bloc
+rajouter des id pour les bloc VERIF
 
 voir pou animation js sur les card quand ont passe la souris dessus ou cacher d'autre easter egg
 

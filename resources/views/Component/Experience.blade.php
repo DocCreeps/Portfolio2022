@@ -10,7 +10,7 @@
                         <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Saint-Quentin-Fallavier</p>
                         <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">02/2021-02/2023</p>
                     </div>
-                    <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Alternant Développeur, Webmaster et Responsable ERP</h3>
+                    <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Alternant Développeur, Webmaster et Responsable ERP</h2>
                     <p class="text-gray-700 mb-6">Alternance effectuer dans le cadre de ma formation Expert en Systèmes d'Informations<br/>
                         Missions :<br/>
                         Développement d'applications(Maintenance d'application métier (en windev)<br/> création d'une web application de gestion des temps projets en Laravel),<br/>
@@ -44,7 +44,7 @@
                         <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Saint-Priest</p>
                         <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">09/2019-10/2020</p>
                     </div>
-                    <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Alternant Développeur</h3>
+                    <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Alternant Développeur</h2>
                     <p class="text-gray-700 mb-6">Alternance dans le cadre de la licence RPI(Responsable de Projet Informatique)<br/>
                         Missions :<br/>
                         Maintenance d'application web, Conception d'application web,<br/>
@@ -62,7 +62,7 @@
                         <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Saint-Clément-Les-Places</p>
                         <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">01/2017-02/2017</p>
                     </div>
-                    <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Stage - Maintenance informatique</h3>
+                    <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Stage - Maintenance informatique</h2>
                     <p class="text-gray-700 mb-6">
                         Stage de terminale BAC professionnel SEN(Système Électronique et Numérique <br/> Option TR(Télécom et Réseaux)<br/>
                         Missions: <br/>
@@ -97,7 +97,7 @@
                         <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Craponne</p>
                         <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">04/2016-05/2016</p>
                     </div>
-                    <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Stage - Maintenance informatique</h3>
+                    <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Stage - Maintenance informatique</h2>
                     <p class="text-gray-700 mb-6">
                         Stage de première BAC professionnel SEN(Système Électronique et Numérique <br/> Option TR(Télécom et Réseaux)<br/>
                         Missions: <br/>
@@ -114,7 +114,7 @@
                         <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Veauche</p>
                         <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">11/2015</p>
                     </div>
-                    <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Stage - Maintenance informatique</h3>
+                    <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Stage - Maintenance informatique</h2>
                     <p class="text-gray-700 mb-6">Stage de première BAC professionnel SEN(Système Électronique et Numérique <br/> Option TR(Télécom et Réseaux)<br/>
                         Missions: <br/>
                         Maintenance informatique</p>
@@ -147,7 +147,7 @@
                         <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Saint-Martin-en-Haut</p>
                         <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">05/2015</p>
                     </div>
-                    <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Stage - Maintenance informatique</h3>
+                    <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Stage - Maintenance informatique</h2>
                     <p class="text-gray-700 mb-6">Stage de seconde BAC professionnel SEN(Système Électronique et Numérique <br/> Option TR(Télécom et Réseaux)<br/>
                         Missions: <br/>
                         Maintenance informatique</p>
@@ -164,7 +164,7 @@
                         <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Craponne</p>
                         <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">02/2015-03/2015</p>
                     </div>
-                    <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Stage - Maintenance informatique</h3>
+                    <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Stage - Maintenance informatique</h2>
                     <p class="text-gray-700 mb-6">Stage de seconde BAC professionnel SEN(Système Électronique et Numérique <br/> Option TR(Télécom et Réseaux)<br/>
                         Missions: <br/>
                         Maintenance informatique</p>

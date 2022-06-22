@@ -3,7 +3,7 @@
     <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 underline">Compétences</h1>
 
 
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="langages">Langages</h3>
+    <h2 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="langages">Langages</h2>
 <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
     <!--Card 1-->
     <div class="rounded overflow-hidden shadow-lg">
@@ -101,7 +101,7 @@
     </div>
 </div>
 
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="framework">Framework</h3>
+    <h2 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="framework">Framework</h2>
     <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         <!--Card 1-->
         <div class="rounded overflow-hidden shadow-lg">
@@ -202,7 +202,7 @@
 
     </div>
 
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="outils">Outils</h3>
+    <h2 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="outils">Outils</h2>
 
     <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         <!--Card 1-->
@@ -271,7 +271,7 @@
             <div class="rounded overflow-hidden shadow-lg">
                 <img class="mx-auto" src="{{asset('Picture/sql.png')}}" alt="logo sql" title="Logo Sql">
                 <div class="px-6 py-4">
-                    <div class="font-bold text-center text-xl mb-2">SQL</div>
+                    <div class="font-bold text-center text-xl mb-2">SGBDR</div>
                     <p class="text-gray-700 text-center text-base">
                         SqlServer, MySQL, Mariadb
                     </p>

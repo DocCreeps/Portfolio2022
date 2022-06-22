@@ -2,7 +2,7 @@
 <section id="projets">
     <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 underline">Projets</h1>
 
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetPerso">Projets Perso</h3>
+    <h2 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetPerso">Projets Perso</h2>
 
 
     <div class="container my-12 mx-auto px-4 md:px-12">
@@ -14,12 +14,12 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <a href="https://discord.gg/JgQ7tjkXUY" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-full mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/logosrv.jpg')}}" alt="logo projet Arkanda" title="Logo Arkanda"/>
                     </a>
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
-                        <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Arkanda</h4>
+                        <h3 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Arkanda</h3>
                     </header>
 
                     <footer class=" items-center justify-between text-center leading-none mb-5">
@@ -42,19 +42,19 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <a href="https://gestpass.dorianvericel.fr" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-t-lg mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/gestpass.png')}}" alt="logo projet Gest Pass"   title="Logo Gest Pass"/>
                     </a>
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
-                        <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Gest Pass</h4>
+                        <h3 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Gest Pass</h3>
                     </header>
 
                     <footer class=" items-center justify-between text-center leading-none mb-5">
                         <p class="text-gray-700 text-base mb-4">
                             Projet en cours 🛠️<br/> Création d'un gestionnaire de mot de passe. <br/>
                             techno : <br/>
-                            <b>Laravel, Tailwind, Mariadb</b>
+                            <b>Laravel,JS, Bootstrap, Mariadb</b>
                         </p>
                         <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"><a href="http://gestpass.dorianvericel.fr/">Demo</a></button>
                     </footer>
@@ -70,12 +70,12 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <a href="https://blog.dorianvericel.fr" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-t-lg mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/Blog.png')}}" alt="logo projet Blog" title="Logo Blog"/>
                     </a>
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
-                        <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Blog</h4>
+                        <h3 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Blog</h3>
                     </header>
 
                     <footer class=" items-center justify-between text-center leading-none mb-5">
@@ -98,17 +98,17 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <a href=https://cyberveille.dorianvericel.fr/" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-t-lg mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/Cyberveillepng.png')}}" alt="logo projet cyber veille" title="Logo Cyber Veille"/>
                     </a>
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
-                        <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Cyber Veille</h4>
+                        <h3 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Cyber Veille</h3>
                     </header>
 
                     <footer class=" items-center justify-between text-center leading-none mb-5">
                         <p class="text-gray-700 text-base mb-4">
-                            Projet en cours 🛠️<br/> Création d'un blog permettant la création et consultation d'article.<br/>
+                            Projet en cours 🛠️<br/> Création d'un gestionnaire d'article affin d'avoir une veille technologique structurer et classer en catégories.<br/>
                             techno : <br/>
                             <b>Laravel, Tailwind, Mariadb</b>
                         </p>
@@ -124,9 +124,9 @@
         </div>
     </div>
 
-    <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetScolaire">Projets Scolaire</h3>
+    <h2 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetScolaire">Projets Scolaire</h2>
 
-    <h4 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetMaster">Projets Licence et Master</h4>
+    <h3 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetMaster">Projets Licence et Master</h3>
 
     <div class="container my-12 mx-auto px-4 md:px-12">
         <div class="flex flex-wrap -mx-1 lg:-mx-4">
@@ -137,9 +137,9 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+
                         <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/isidrive.jpg')}}" alt="logo projet isidrive" title="Logo isidrive"/>
-                    </a>
+
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
                         <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">IsiDrive</h4>
@@ -164,9 +164,9 @@
                 <!-- Article -->
                 <article class="overflow-hidden rounded-lg shadow-lg">
 
-                    <a href="" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+
                         <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/zjd.png')}}" alt="logo projet zjd" title="Logo ZJD"/>
-                    </a>
+
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
                         <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">ZJD Virtualisation</h4>
@@ -191,7 +191,7 @@
 
 
 
-    <h4 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="projetBts">Projets BTS</h4>
+    <h3 class="text-2xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="projetBts">Projets BTS</h3>
 
 
     <div class="container my-12 mx-auto px-4 md:px-12">
