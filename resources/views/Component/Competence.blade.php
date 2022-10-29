@@ -5,15 +5,27 @@
 
     <h2 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="langages">Langages</h2>
 <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+    <!--Card 3-->
+    <div class="rounded overflow-hidden shadow-lg">
+        <img class="mx-auto" src="{{asset('Picture/htmlcss.png')}}" alt="logo html et css" title="Logo html et css">
+        <div class="px-6 py-4">
+            <div class="font-bold text-center text-xl mb-2">HTML/CSS</div>
+
+            {{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
+            {{--                <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 80%"></div>--}}
+            {{--            </div>--}}
+        </div>
+
+    </div>
     <!--Card 1-->
     <div class="rounded overflow-hidden shadow-lg">
         <img class="mx-auto" src="{{asset('Picture/php.jpg')}}" alt="logo php" title="Logo PHP" >
         <div class="px-6 py-4">
             <div class="font-bold text-center text-xl mb-2">PHP</div>
 
-            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
-                <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 65%"></div>
-            </div>
+{{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
+{{--                <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 65%"></div>--}}
+{{--            </div>--}}
         </div>
 
     </div>
@@ -23,45 +35,9 @@
         <div class="px-6 py-4">
             <div class="font-bold text-center text-xl mb-2">JS</div>
 
-            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
-                <div class="h-4 bg-yellow-300 rounded-full dark:bg-yellow-300" style="width: 60%"></div>
-            </div>
-        </div>
-
-    </div>
-
-    <!--Card 3-->
-    <div class="rounded overflow-hidden shadow-lg">
-        <img class="mx-auto" src="{{asset('Picture/htmlcss.png')}}" alt="logo html et css" title="Logo html et css">
-        <div class="px-6 py-4">
-            <div class="font-bold text-center text-xl mb-2">HTML/CSS</div>
-
-            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
-                <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 80%"></div>
-            </div>
-        </div>
-
-    </div>
-    <div class="rounded overflow-hidden shadow-lg">
-        <img class="mx-auto" src="{{asset('Picture/python.jpg')}}" alt="logo python" title="Logo Python">
-        <div class="px-6 py-4">
-            <div class="font-bold text-center text-xl mb-2">Python</div>
-
-            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700 ">
-                <div class="h-4 bg-yellow-300 rounded-full dark:bg-yellow-300" style="width: 45%;"></div>
-            </div>
-        </div>
-
-    </div>
-    <!--Card 2-->
-    <div class="rounded overflow-hidden shadow-lg">
-        <img class="mx-auto" src="{{asset('Picture/Csharp.png')}}" alt="logo c#" title="Logo Csharp">
-        <div class="px-6 py-4">
-            <div class="font-bold text-center text-xl mb-2">C#</div>
-
-            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
-                <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 50%"></div>
-            </div>
+{{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
+{{--                <div class="h-4 bg-yellow-300 rounded-full dark:bg-yellow-300" style="width: 60%"></div>--}}
+{{--            </div>--}}
         </div>
 
     </div>
@@ -72,20 +48,37 @@
         <div class="px-6 py-4">
             <div class="font-bold text-center text-xl mb-2">SQL</div>
 
-            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
-                <div class="h-4 bg-orange-400 rounded-full dark:bg-orange-400" style="width: 85%"></div>
-            </div>
+            {{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
+            {{--                <div class="h-4 bg-orange-400 rounded-full dark:bg-orange-400" style="width: 85%"></div>--}}
+            {{--            </div>--}}
         </div>
 
     </div>
+
+    <!--Card 2-->
+    <div class="rounded overflow-hidden shadow-lg">
+        <img class="mx-auto" src="{{asset('Picture/Csharp.png')}}" alt="logo c#" title="Logo Csharp">
+        <div class="px-6 py-4">
+            <div class="font-bold text-center text-xl mb-2">C#</div>
+
+{{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
+{{--                <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 50%"></div>--}}
+{{--            </div>--}}
+        </div>
+
+    </div>
+
+
+
+
     <div class="rounded overflow-hidden shadow-lg">
         <img class="mx-auto" src="{{asset('Picture/vba.png')}}" alt="logo vba" title="Logo VBA">
         <div class="px-6 py-4">
             <div class="font-bold text-center text-xl mb-2">VBA</div>
 
-            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
-                <div class="h-4 bg-green-400 rounded-full dark:bg-green-400" style="width: 55%"></div>
-            </div>
+{{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
+{{--                <div class="h-4 bg-green-400 rounded-full dark:bg-green-400" style="width: 55%"></div>--}}
+{{--            </div>--}}
         </div>
 
     </div>
@@ -94,10 +87,22 @@
         <div class="px-6 py-4">
             <div class="font-bold text-center text-xl mb-2">JAVA</div>
 
-            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
-                <div class="h-4 bg-red-600 rounded-full dark:bg-red-600" style="width: 55%"></div>
-            </div>
+{{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
+{{--                <div class="h-4 bg-red-600 rounded-full dark:bg-red-600" style="width: 55%"></div>--}}
+{{--            </div>--}}
         </div>
+    </div>
+
+    <div class="rounded overflow-hidden shadow-lg">
+        <img class="mx-auto" src="{{asset('Picture/python.jpg')}}" alt="logo python" title="Logo Python">
+        <div class="px-6 py-4">
+            <div class="font-bold text-center text-xl mb-2">Python</div>
+
+            {{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200 ">--}}
+            {{--                <div class="h-4 bg-yellow-300 rounded-full dark:bg-yellow-300" style="width: 45%;"></div>--}}
+            {{--            </div>--}}
+        </div>
+
     </div>
 </div>
 
@@ -111,9 +116,9 @@
                 <p class="text-gray-700 text-center text-base">
                    Framework PHP
                 </p>
-                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
-                    <div class="h-4 bg-gradient-to-br from-orange-500 to-orange-800 rounded-full dark:bg-orange-500" style="width: 55%"></div>
-                </div>
+{{--                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
+{{--                    <div class="h-4 bg-gradient-to-br from-orange-500 to-orange-800 rounded-full dark:bg-orange-500" style="width: 55%"></div>--}}
+{{--                </div>--}}
             </div>
         </div>
         <!--Card 2-->
@@ -124,9 +129,9 @@
                 <p class="text-gray-700 text-center text-base">
                     Framework JS
                 </p>
-                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
-                    <div id="bar" class="h-4 bg-blue-300 rounded-full dark:bg-blue-300" style="width: 50%"></div>
-                </div>
+{{--                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
+{{--                    <div id="bar" class="h-4 bg-blue-300 rounded-full dark:bg-blue-300" style="width: 50%"></div>--}}
+{{--                </div>--}}
             </div>
         </div>
 
@@ -138,9 +143,9 @@
                 <p class="text-gray-700 text-center text-base">
                     Framework CSS
                 </p>
-                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
-                    <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 60%"></div>
-                </div>
+{{--                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
+{{--                    <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 60%"></div>--}}
+{{--                </div>--}}
             </div>
         </div>
         <div class="rounded overflow-hidden shadow-lg">
@@ -150,11 +155,9 @@
                 <p class="text-gray-700 text-center text-base">
                    Framework CSS
                 </p>
-                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-700">
-                    <div class="h-4 bg-green-400 rounded-full dark:bg-green-400" style="width: 50%"></div>
-                </div>
-
-
+{{--                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
+{{--                    <div class="h-4 bg-green-400 rounded-full dark:bg-green-400" style="width: 50%"></div>--}}
+{{--                </div>--}}
             </div>
         </div>
 

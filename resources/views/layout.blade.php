@@ -5,7 +5,7 @@
 @include('Component.Formation')
 @include('Component.Projet')
 @include('Component.Competence')
-
+@yield('content')
 
 
 {{--<div id = "main" class = "row" >--}}
@@ -48,3 +48,4 @@
     });
 
 </script>
+

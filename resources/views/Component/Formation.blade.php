@@ -25,7 +25,7 @@
             </div>
         </div>
         <!-- right -->
-        <div class="flex md:contents">
+     {{--   <div class="flex md:contents">
 
             <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
                 <div class="h-full w-6 flex items-center justify-center">
@@ -63,7 +63,7 @@
                     class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-400 shadow"
                 ></div>
             </div>
-        </div>
+        </div>--}}
         <!-- right -->
         <div class="flex md:contents">
 
@@ -95,7 +95,7 @@
                     <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm ">Saint-Étienne</p>
                     <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm ">2014/2017</p>
                 </div>
-                <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> BEP BAC Pro SEN option TR</h2>
+                <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> BEP et BAC Pro SEN option TR</h2>
                 <p class="text-gray-700 mb-2 overflow-auto">J'ai effectuer mon BEP et mon BAC Professionnel SEN(Système Électronique et Numérique) <br/>option TR (Telecom et Réseaux) au sein du lycée Le marais sainte thérèse a Saint-Étienne.<br/> Ce BAC Pro m'a appris les bases de l'informatique et de l'électronique </p>
 
 
