@@ -12,7 +12,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var scrollreveal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! scrollreveal */ "./node_modules/scrollreveal/dist/scrollreveal.es.js");
 
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.about', {
-  delay: 2800
+  delay: 500,
+  distance: '120px',
+  origin: 'bottom',
+  duration: 2000
+});
+(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.profilReveal', {
+  delay: 500,
+  distance: '1200px',
+  origin: 'left',
+  duration: 5000
+});
+(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.xpReveal', {
+  delay: 500,
+  distance: '120px',
+  origin: 'bottom',
+  duration: 2000,
+  interval: 1000
 });
 
 /***/ }),
