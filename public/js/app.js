@@ -23,12 +23,29 @@ __webpack_require__.r(__webpack_exports__);
   origin: 'left',
   duration: 5000
 });
-(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.xpReveal', {
+(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.titleExperienceReveal', {
   delay: 500,
+  duration: 5000,
+  scale: 0.5
+});
+(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.titleFormationReveal', {
+  delay: 500,
+  duration: 5000,
+  scale: 0.5
+});
+(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.xpReveal', {
+  delay: 250,
   distance: '120px',
   origin: 'bottom',
-  duration: 2000,
-  interval: 1000
+  duration: 1000,
+  interval: 500
+});
+(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.formationReveal', {
+  delay: 500,
+  distance: '120px',
+  origin: 'top',
+  duration: 1000,
+  interval: 750
 });
 
 /***/ }),
