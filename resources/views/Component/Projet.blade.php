@@ -1,6 +1,6 @@
 
 <section id="projets">
-    <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 underline">Projets</h1>
+    <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 underline titleProjetReveal">Projets</h1>
 
     <h2 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetPerso">Projets Perso</h2>
 
@@ -12,7 +12,7 @@
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
 
                 <!-- Article -->
-                <article class="overflow-hidden rounded-lg shadow-lg">
+                <article class="overflow-hidden rounded-lg shadow-lg projectPersoReveal">
 
                     <a href="https://discord.gg/JgQ7tjkXUY" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-full mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/logosrv.jpg')}}" alt="logo projet Arkanda" title="Logo Arkanda"/>
@@ -40,7 +40,7 @@
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
 
                 <!-- Article -->
-                <article class="overflow-hidden rounded-lg shadow-lg">
+                <article class="overflow-hidden rounded-lg shadow-lg projectPersoReveal">
 
                     <a href="https://gestpass.dorianvericel.fr" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-t-lg mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/gestpass.png')}}" alt="logo projet Gest Pass"   title="Logo Gest Pass"/>
@@ -65,29 +65,29 @@
             </div>
             <!-- END Column -->
             <!-- Column -->
-            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
+{{--            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">--}}
 
-                <!-- Article -->
-                <article class="overflow-hidden rounded-lg shadow-lg">
+{{--                <!-- Article -->--}}
+{{--                <article class="overflow-hidden rounded-lg shadow-lg">--}}
 
-                    <a href="https://blog.dorianvericel.fr" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                        <img class="rounded-t-lg mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/Blog.png')}}" alt="logo projet Blog" title="Logo Blog"/>
-                    </a>
+{{--                    <a href="https://blog.dorianvericel.fr" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">--}}
+{{--                        <img class="rounded-t-lg mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/Blog.png')}}" alt="logo projet Blog" title="Logo Blog"/>--}}
+{{--                    </a>--}}
 
-                    <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
-                        <h3 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Blog</h3>
-                    </header>
+{{--                    <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">--}}
+{{--                        <h3 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Blog</h3>--}}
+{{--                    </header>--}}
 
-                    <footer class=" items-center justify-between text-center leading-none mb-5">
-                        <p class="text-gray-700 text-base mb-4">
-                            Projet en cours 🛠️<br/> Création d'un blog permettant la création et consultation d'article.<br/>
-                            techno : <br/>
-                            <b>Laravel, Tailwind, Mariadb</b>
-                        </p>
-                        <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"><a href="http://blog.dorianvericel.fr/">Le Projet</a></button>
-                    </footer>
+{{--                    <footer class=" items-center justify-between text-center leading-none mb-5">--}}
+{{--                        <p class="text-gray-700 text-base mb-4">--}}
+{{--                            Projet en cours 🛠️<br/> Création d'un blog permettant la création et consultation d'article.<br/>--}}
+{{--                            techno : <br/>--}}
+{{--                            <b>Laravel, Tailwind, Mariadb</b>--}}
+{{--                        </p>--}}
+{{--                        <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"><a href="http://blog.dorianvericel.fr/">Le Projet</a></button>--}}
+{{--                    </footer>--}}
 
-                </article>
+{{--                </article>--}}
                 <!-- END Article -->
 
             </div>
@@ -96,7 +96,7 @@
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
 
                 <!-- Article -->
-                <article class="overflow-hidden rounded-lg shadow-lg">
+                <article class="overflow-hidden rounded-lg shadow-lg projectPersoReveal">
 
                     <a href=https://cyberveille.dorianvericel.fr/" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-t-lg mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/Cyberveillepng.png')}}" alt="logo projet cyber veille" title="Logo Cyber Veille"/>
@@ -135,10 +135,10 @@
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
 
                 <!-- Article -->
-                <article class="overflow-hidden rounded-lg shadow-lg">
+                <article class="overflow-hidden rounded-lg shadow-lg projectEtuReveal">
 
 
-                        <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/isidrive.jpg')}}" alt="logo projet isidrive" title="Logo isidrive"/>
+                        <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/Isidrive.png')}}" alt="logo projet isidrive" title="Logo isidrive"/>
 
 
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
@@ -147,9 +147,10 @@
 
                     <footer class=" items-center justify-between text-center leading-none">
                         <p class="text-gray-700 text-base mb-4">
+                            Projet en groupe effectué durant mon master. <br/>
                             Application web et mobile de gestion d'un drive.<br/>
                             techno : <br/>
-                            <b>PHP, JS, C#, SQL SERVER</b>
+                            <b>PHP, JS, C#, SQL SERVER, MySql, Heroku</b>
                         </p>
                     </footer>
 
@@ -162,7 +163,7 @@
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
 
                 <!-- Article -->
-                <article class="overflow-hidden rounded-lg shadow-lg">
+                <article class="overflow-hidden rounded-lg shadow-lg projectEtuReveal">
 
 
                         <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/zjd.png')}}" alt="logo projet zjd" title="Logo ZJD"/>
@@ -174,7 +175,7 @@
 
                     <footer class=" items-center justify-between text-center leading-none">
                         <p class="text-gray-700 text-base mb-4">
-                            Projet en groupes durant mon année de Licence RPI  <br/>
+                            Projet en groupes effectué durant mon année de Licence RPI  <br/>
                             Création d'une entreprise qui propose une solution de virtualisation avec docker. <br/>
                             techno : <br/>
                             <b>PHP(symphony), JS, dockers, mariadb</b>
@@ -201,7 +202,7 @@
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
 
                 <!-- Article -->
-                <article class="overflow-hidden rounded-lg shadow-lg">
+                <article class="overflow-hidden rounded-lg shadow-lg projectEtuReveal">
 
                     <a href="https://github.com/DocCreeps/roulette" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/roulette.jpg')}}" alt="logo projet roulette" title="Logo Roulette"/>
@@ -228,7 +229,7 @@
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
 
                 <!-- Article -->
-                <article class="overflow-hidden rounded-lg shadow-lg">
+                <article class="overflow-hidden rounded-lg shadow-lg projectEtuReveal">
 
                     <a href="https://github.com/DocCreeps/GSB-Gestion_Notes_De_Frais" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                         <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/gsb.jpg')}}" alt="logo projet GSB" title="Logo GSB"/>
@@ -254,3 +255,4 @@
         </div>
     </div>
 </section>
+<script src="{{ asset('/js/app.js') }}"></script>

@@ -18,18 +18,28 @@ __webpack_require__.r(__webpack_exports__);
   duration: 2000
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.profilReveal', {
-  delay: 500,
+  delay: 250,
   distance: '1200px',
   origin: 'left',
   duration: 5000
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.titleExperienceReveal', {
-  delay: 500,
+  delay: 175,
   duration: 5000,
   scale: 0.5
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.titleFormationReveal', {
-  delay: 500,
+  delay: 175,
+  duration: 5000,
+  scale: 0.5
+});
+(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.titleProjetReveal', {
+  delay: 175,
+  duration: 5000,
+  scale: 0.5
+});
+(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.titleCompetReveal', {
+  delay: 175,
   duration: 5000,
   scale: 0.5
 });
@@ -44,6 +54,26 @@ __webpack_require__.r(__webpack_exports__);
   delay: 500,
   distance: '120px',
   origin: 'top',
+  duration: 1000,
+  interval: 750
+});
+(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.projectPersoReveal', {
+  delay: 500,
+  distance: '200px',
+  rotate: {
+    x: 50,
+    z: 90
+  },
+  duration: 1000,
+  interval: 750
+});
+(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.projectEtuReveal', {
+  delay: 500,
+  distance: '120px',
+  rotate: {
+    x: 50,
+    z: 90
+  },
   duration: 1000,
   interval: 750
 });

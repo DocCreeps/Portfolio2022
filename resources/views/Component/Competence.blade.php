@@ -1,181 +1,82 @@
 <section id="competences">
 
-    <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 underline">Compétences</h1>
+    <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 underline titleCompetReveal">Compétences</h1>
 
+        <div class="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 mx-auto">
+            <div class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
+                <div class="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
+                    <h2 class="text-3xl font-bold sm:text-4xl hover:underline">Langages</h2>
+                </div>
 
-    <h2 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="langages">Langages</h2>
-<div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
-    <!--Card 3-->
-    <div class="rounded overflow-hidden shadow-lg">
-        <img class="mx-auto" src="{{asset('Picture/htmlcss.png')}}" alt="logo html et css" title="Logo html et css">
-        <div class="px-6 py-4">
-            <div class="font-bold text-center text-xl mb-2">HTML/CSS</div>
+                <div class="grid grid-cols-3 gap-4 sm:grid-cols-3">
+                    <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
+                        <img class="mx-auto" src="{{asset('Picture/htmlcss.png')}}" alt="logo html et css" title="Logo html et css">
+                        <h2 class="mt-5 font-bold text-center">HTML/CSS</h2>
+                    </div>
+                    <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
+                        <img class="mx-auto" src="{{asset('Picture/php.jpg')}}" alt="logo php" title="Logo PHP" >
+                        <h2 class="mt-5 font-bold text-center">PHP</h2>
+                    </div>
+                    <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
+                        <img class="mx-auto" src="{{asset('Picture/js.png')}}" alt="logo js" title="Logo JS">
+                        <h2 class="mt-5 font-bold text-center">JS</h2>
+                    </div>
+                    <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
+                        <img class="mx-auto" src="{{asset('Picture/sql.png')}}" alt="logo sql" title="Logo SQL">
+                        <h2 class="mt-5 font-bold text-center">SQL</h2>
+                    </div>
+                    <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
+                        <img class="mx-auto" src="{{asset('Picture/Csharp.png')}}" alt="logo c#" title="Logo Csharp">
+                        <h2 class="mt-5 font-bold text-center">C#</h2>
+                    </div>
+                    <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
+                        <img class="mx-auto" src="{{asset('Picture/vba.png')}}" alt="logo vba" title="Logo VBA">
+                        <h2 class="mt-5 font-bold text-center">VBA</h2>
+                    </div>
+                    <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
+                        <img class="mx-auto" src="{{asset('Picture/java.png')}}" alt="logo java" title="Logo Java">
+                        <h2 class="mt-5 font-bold text-center">JAVA</h2>
+                    </div>
 
-            {{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
-            {{--                <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 80%"></div>--}}
-            {{--            </div>--}}
-        </div>
-
-    </div>
-    <!--Card 1-->
-    <div class="rounded overflow-hidden shadow-lg">
-        <img class="mx-auto" src="{{asset('Picture/php.jpg')}}" alt="logo php" title="Logo PHP" >
-        <div class="px-6 py-4">
-            <div class="font-bold text-center text-xl mb-2">PHP</div>
-
-{{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
-{{--                <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 65%"></div>--}}
-{{--            </div>--}}
-        </div>
-
-    </div>
-    <!--Card 2-->
-    <div class="rounded overflow-hidden shadow-lg">
-        <img class="mx-auto" src="{{asset('Picture/js.png')}}" alt="logo js" title="Logo JS">
-        <div class="px-6 py-4">
-            <div class="font-bold text-center text-xl mb-2">JS</div>
-
-{{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
-{{--                <div class="h-4 bg-yellow-300 rounded-full dark:bg-yellow-300" style="width: 60%"></div>--}}
-{{--            </div>--}}
-        </div>
-
-    </div>
-
-    <!--Card 3-->
-    <div class="rounded overflow-hidden shadow-lg">
-        <img class="mx-auto" src="{{asset('Picture/sql.png')}}" alt="logo sql" title="Logo SQL">
-        <div class="px-6 py-4">
-            <div class="font-bold text-center text-xl mb-2">SQL</div>
-
-            {{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
-            {{--                <div class="h-4 bg-orange-400 rounded-full dark:bg-orange-400" style="width: 85%"></div>--}}
-            {{--            </div>--}}
-        </div>
-
-    </div>
-
-    <!--Card 2-->
-    <div class="rounded overflow-hidden shadow-lg">
-        <img class="mx-auto" src="{{asset('Picture/Csharp.png')}}" alt="logo c#" title="Logo Csharp">
-        <div class="px-6 py-4">
-            <div class="font-bold text-center text-xl mb-2">C#</div>
-
-{{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
-{{--                <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 50%"></div>--}}
-{{--            </div>--}}
-        </div>
-
-    </div>
-
-
-
-
-    <div class="rounded overflow-hidden shadow-lg">
-        <img class="mx-auto" src="{{asset('Picture/vba.png')}}" alt="logo vba" title="Logo VBA">
-        <div class="px-6 py-4">
-            <div class="font-bold text-center text-xl mb-2">VBA</div>
-
-{{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
-{{--                <div class="h-4 bg-green-400 rounded-full dark:bg-green-400" style="width: 55%"></div>--}}
-{{--            </div>--}}
-        </div>
-
-    </div>
-    <div class="rounded overflow-hidden shadow-lg">
-        <img class="mx-auto" src="{{asset('Picture/java.png')}}" alt="logo java" title="Logo Java">
-        <div class="px-6 py-4">
-            <div class="font-bold text-center text-xl mb-2">JAVA</div>
-
-{{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
-{{--                <div class="h-4 bg-red-600 rounded-full dark:bg-red-600" style="width: 55%"></div>--}}
-{{--            </div>--}}
-        </div>
-    </div>
-
-    <div class="rounded overflow-hidden shadow-lg">
-        <img class="mx-auto" src="{{asset('Picture/python.jpg')}}" alt="logo python" title="Logo Python">
-        <div class="px-6 py-4">
-            <div class="font-bold text-center text-xl mb-2">Python</div>
-
-            {{--            <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200 ">--}}
-            {{--                <div class="h-4 bg-yellow-300 rounded-full dark:bg-yellow-300" style="width: 45%;"></div>--}}
-            {{--            </div>--}}
-        </div>
-
-    </div>
-</div>
-
-    <h2 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="framework">Framework</h2>
-    <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
-        <!--Card 1-->
-        <div class="rounded overflow-hidden shadow-lg">
-            <img class="mx-auto" src="{{asset('Picture/laravel.jpg')}}" alt="logo laravel" title="Logo Laravel">
-            <div class="px-6 py-4">
-                <div class="font-bold text-center text-xl mb-2">Laravel</div>
-                <p class="text-gray-700 text-center text-base">
-                   Framework PHP
-                </p>
-{{--                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
-{{--                    <div class="h-4 bg-gradient-to-br from-orange-500 to-orange-800 rounded-full dark:bg-orange-500" style="width: 55%"></div>--}}
-{{--                </div>--}}
-            </div>
-        </div>
-        <!--Card 2-->
-        <div class="rounded overflow-hidden shadow-lg">
-            <img class="mx-auto" src="{{asset('Picture/react.png')}}" alt="logo react" title="Logo react">
-            <div class="px-6 py-4">
-                <div class="font-bold text-center text-xl mb-2">React/React native</div>
-                <p class="text-gray-700 text-center text-base">
-                    Framework JS
-                </p>
-{{--                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
-{{--                    <div id="bar" class="h-4 bg-blue-300 rounded-full dark:bg-blue-300" style="width: 50%"></div>--}}
-{{--                </div>--}}
+                </div>
             </div>
         </div>
 
-        <!--Card 3-->
-        <div class="rounded overflow-hidden shadow-lg">
-            <img class="mx-auto" src="{{asset('Picture/bootstrap.jpg')}}" alt="logo bootstrap" title="Logo bootstrap">
-            <div class="px-6 py-4">
-                <div class="font-bold text-center text-xl mb-2">Bootstrap</div>
-                <p class="text-gray-700 text-center text-base">
-                    Framework CSS
-                </p>
-{{--                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
-{{--                    <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-600" style="width: 60%"></div>--}}
-{{--                </div>--}}
+{{--    Windev, Bash, Batch,--}}
+
+    <div class="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 mx-auto">
+        <div class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
+            <div class="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
+                <h2 class="text-3xl font-bold sm:text-4xl hover:underline">Framework</h2>
+            </div>
+
+            <div class="grid grid-cols-3 gap-4 sm:grid-cols-3">
+                <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
+                    <img class="mx-auto" src="{{asset('Picture/laravel.jpg')}}" alt="logo laravel" title="Logo Laravel">
+                    <h2 class="mt-5 font-bold text-center">Laravel</h2>
+                </div>
+                <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
+                    <img class="mx-auto" src="{{asset('Picture/react.png')}}" alt="logo react" title="Logo react">
+                    <h2 class="mt-5 font-bold text-center">React/React Native</h2>
+                </div>
+                <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
+                    <img class="mx-auto" src="{{asset('Picture/bootstrap.jpg')}}" alt="logo bootstrap" title="Logo bootstrap">
+                    <h2 class="mt-5 font-bold text-center">Bootstrap</h2>
+                </div>
+                <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
+                    <img class="mx-auto" src="{{asset('Picture/tailwind.png')}}" alt="logo tailwind" title="logo tailwind">
+                    <h2 class="mt-5 font-bold text-center">Tailwind</h2>
+                </div>
+
+
             </div>
         </div>
-        <div class="rounded overflow-hidden shadow-lg">
-            <img class="mx-auto" src="{{asset('Picture/tailwind.png')}}" alt="logo tailwind" title="logo tailwind">
-            <div class="px-6 py-4">
-                <div class="font-bold text-center text-xl mb-2">Tailwind</div>
-                <p class="text-gray-700 text-center text-base">
-                   Framework CSS
-                </p>
-{{--                <div class="w-full h-4 bg-gray-200 rounded-full dark:bg-gray-200">--}}
-{{--                    <div class="h-4 bg-green-400 rounded-full dark:bg-green-400" style="width: 50%"></div>--}}
-{{--                </div>--}}
-            </div>
-        </div>
-
-{{--        <div class="rounded overflow-hidden shadow-lg">--}}
-{{--            <img class="mx-auto" src="{{asset('Picture/vue.png')}}" alt="logo vuejs" >--}}
-{{--            <div class="px-6 py-4">--}}
-{{--                <div class="font-bold text-xl mb-2">VueJS</div>--}}
-{{--                <p class="text-gray-700 text-base">--}}
-{{--                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.--}}
-{{--                </p>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-
     </div>
 
 
     <h3 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="OS">OS</h3>
-    <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+    <div class="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 mx-auto">
+    <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 ">
         <!--Card 1-->
         <div class="rounded overflow-hidden shadow-lg">
             <img class="mx-auto" src="{{asset('Picture/windows.png')}}" alt="logo windows" title="Logo windows">
@@ -201,12 +102,13 @@
                 <div class="font-bold text-center text-xl mb-2">Android</div>
             </div>
         </div>
+    </div>
 
 
     </div>
 
-    <h2 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="outils">Outils</h2>
-
+    <h2 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="outils">Autre</h2>
+    <div class="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 mx-auto">
     <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         <!--Card 1-->
         <div class="rounded overflow-hidden shadow-lg ">
@@ -216,12 +118,7 @@
             </div>
         </div>
         <!--Card 2-->
-        <div class="rounded overflow-hidden shadow-lg">
-            <img class="mx-auto" src="{{asset('Picture/docker.jpg')}}" alt="logo docker" title="Logo Docker">
-            <div class="px-6 py-4">
-                <div class="font-bold text-center text-xl mb-2">Docker</div>
-            </div>
-        </div>
+
 
         <!--Card 3-->
         <div class="rounded overflow-hidden shadow-lg">
@@ -281,9 +178,16 @@
                 </div>
 
             </div>
+        <div class="rounded overflow-hidden shadow-lg">
+            <img class="mx-auto" src="{{asset('Picture/Heroku.png')}}" alt="logo heroku" title="Logo heroku">
+            <div class="px-6 py-4">
+                <div class="font-bold text-center text-xl mb-2">Heroku</div>
+            </div>
+        </div>
 
     </div>
-
+    </div>
+{{-- Notion...  --}}
 </section>
 {{--<script src="//unpkg.com/alpinejs" defer></script>--}}
 
@@ -292,3 +196,4 @@
 {{--    </div>--}}
 {{--</div>--}}
 
+<script src="{{ asset('/js/app.js') }}"></script>
