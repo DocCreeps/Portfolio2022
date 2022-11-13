@@ -78,14 +78,14 @@
     <div class="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 mx-auto">
     <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 ">
         <!--Card 1-->
-        <div class="rounded overflow-hidden shadow-lg osRevea">
+        <div class="rounded overflow-hidden shadow-lg osReveal">
             <img class="mx-auto" src="{{asset('Picture/windows.png')}}" alt="logo windows" title="Logo windows">
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Windows</div>
             </div>
         </div>
         <!--Card 2-->
-        <div class="rounded overflow-hidden shadow-lg osRevea">
+        <div class="rounded overflow-hidden shadow-lg osReveal">
             <img class="mx-auto" src="{{asset('Picture/linux.png')}}" alt="logo linux" title="Logo Linux">
                 <div class="font-bold text-center text-xl mb-2">Linux</div>
                 <p class="text-gray-700 text-center text-base">
@@ -96,7 +96,7 @@
 
 
         <!--Card 3-->
-        <div class="rounded overflow-hidden shadow-lg osRevea">
+        <div class="rounded overflow-hidden shadow-lg osReveal">
             <img class="mx-auto" src="{{asset('Picture/android.png')}}" alt="logo android" title="Logo Android">
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Android</div>
@@ -111,7 +111,7 @@
     <div class="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 mx-auto">
     <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         <!--Card 1-->
-        <div class="rounded overflow-hidden shadow-lg ">
+        <div class="rounded overflow-hidden shadow-lg otherReveal ">
             <img class="mx-auto" src="{{asset('Picture/git.png')}}" alt="logo git" title="Logo Git" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Git</div>
@@ -121,13 +121,13 @@
 
 
         <!--Card 3-->
-        <div class="rounded overflow-hidden shadow-lg">
+        <div class="rounded overflow-hidden shadow-lg otherReveal">
             <img class="mx-auto" src="{{asset('Picture/wordpress.jpg')}}" alt="logo wordpress" title="Logo Wordpress">
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Wordpress</div>
             </div>
         </div>
-        <div class="rounded overflow-hidden shadow-lg">
+        <div class="rounded overflow-hidden shadow-lg otherReveal">
             <img class="mx-auto" src="{{asset('Picture/office.jpg')}}" alt="logo suite office" title="Logo Office">
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Suite Office</div>
@@ -135,7 +135,7 @@
 
             </div></div>
 
-        <div class="rounded overflow-hidden shadow-lg">
+        <div class="rounded overflow-hidden shadow-lg otherReveal">
             <img class="mx-auto" src="{{asset('Picture/jetbrain.jpg')}}" alt="logo jetbrain" title="Logo JetBrain">
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Suite Jetbrain</div>
@@ -146,29 +146,21 @@
 
         </div>
 
-        <div class="rounded overflow-hidden shadow-lg">
+        <div class="rounded overflow-hidden shadow-lg otherReveal">
             <img class="mx-auto" src="{{asset('Picture/glpi.png')}}" alt="logo glpi" title="Logo GLPI">
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">GLPI</div>
             </div>
         </div>
-{{--        <div class="rounded overflow-hidden shadow-lg">--}}
-{{--            <img class="mx-auto" src="{{asset('Picture/android.png')}}" alt="logo android" >--}}
-{{--            <div class="px-6 py-4">--}}
-{{--                <div class="font-bold text-xl mb-2">ERP</div>--}}
-{{--                <p class="text-gray-700 text-base">--}}
-{{--                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.--}}
-{{--                </p>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-        <div class="rounded overflow-hidden shadow-lg">
+
+        <div class="rounded overflow-hidden shadow-lg otherReveal">
             <img class="mx-auto" src="{{asset('Picture/laragon.png')}}" alt="logo laragon" title="Logo Laragon">
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">LARAGON</div>
             </div>
         </div>
 
-            <div class="rounded overflow-hidden shadow-lg">
+            <div class="rounded overflow-hidden shadow-lg otherReveal">
                 <img class="mx-auto" src="{{asset('Picture/sql.png')}}" alt="logo sql" title="Logo Sql">
                 <div class="px-6 py-4">
                     <div class="font-bold text-center text-xl mb-2">SGBDR</div>
@@ -178,7 +170,7 @@
                 </div>
 
             </div>
-        <div class="rounded overflow-hidden shadow-lg">
+        <div class="rounded overflow-hidden shadow-lg otherReveal">
             <img class="mx-auto" src="{{asset('Picture/Heroku.png')}}" alt="logo heroku" title="Logo heroku">
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Heroku</div>

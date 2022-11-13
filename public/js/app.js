@@ -18,7 +18,7 @@ __webpack_require__.r(__webpack_exports__);
   duration: 2000
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.profilReveal', {
-  delay: 250,
+  delay: 150,
   distance: '1200px',
   origin: 'left',
   duration: 5000
@@ -91,10 +91,17 @@ __webpack_require__.r(__webpack_exports__);
   duration: 2500,
   interval: 750
 });
-(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.osRevea', {
+(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.osReveal', {
   delay: 250,
   distance: '120px',
   origin: 'bottom',
+  duration: 2500,
+  interval: 750
+});
+(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.otherReveal', {
+  delay: 250,
+  distance: '120px',
+  origin: 'top',
   duration: 2500,
   interval: 750
 });
