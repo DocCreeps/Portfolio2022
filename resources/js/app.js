@@ -8,6 +8,7 @@ ScrollReveal().reveal('.titleExperienceReveal', {delay : 175, duration: 2000,sca
 ScrollReveal().reveal('.titleFormationReveal', {delay : 175, duration: 2000,scale: 0.5 });
 ScrollReveal().reveal('.titleProjetReveal', {delay : 175, duration: 2000,scale: 0.5 });
 ScrollReveal().reveal('.titleCompetReveal', {delay : 175, duration: 2000,scale: 0.5 });
+ScrollReveal().reveal('.titleHobby', {delay : 175, duration: 2000,scale: 0.5 });
 
 
 ScrollReveal().reveal('.xpReveal', {delay : 250, distance: '120px',origin: 'bottom', duration: 1000, interval: 500 });

@@ -43,6 +43,11 @@ __webpack_require__.r(__webpack_exports__);
   duration: 2000,
   scale: 0.5
 });
+(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.titleHobby', {
+  delay: 175,
+  duration: 2000,
+  scale: 0.5
+});
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.xpReveal', {
   delay: 250,
   distance: '120px',

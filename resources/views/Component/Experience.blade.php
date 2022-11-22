@@ -58,6 +58,59 @@
                 <div
                     class="bg-gray-100 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md text-center xpReveal">
                     <div class="flex justify-between mb-4">
+                        <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Apitech</p>
+                        <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Lyon 9</p>
+                        <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">01/2019-02/2019</p>
+                    </div>
+                    <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Stage - Développeur web</h2>
+                    <p class="text-gray-700 mb-6">
+                        Stage 2eme année de BTS SIO<br/>
+                        Missions: <br/>
+                        création d'une page d'accueil pour un outils de visioconférence(Laravel, API(jitsimeet)<br/>
+                        Étude de l'ERP ODOO</p>
+
+                </div>
+                <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                    <div class="h-full w-6 flex items-center justify-center">
+                        <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                    </div>
+                    <div
+                        class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                    ></div>
+                </div>
+            </div>
+            <!-- right -->
+            <div class="flex md:contents">
+                <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                    <div class="h-full w-6 flex items-center justify-center">
+                        <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                    </div>
+                    <div
+                        class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                    ></div>
+                </div>
+                <div
+                    class="bg-gray-100 text-center col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md xpReveal">
+
+                    <div class="flex justify-between mb-4">
+                        <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm mr-5">MIB Informatique</p>
+                        <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm mr-5">Villefranche-Sur-Saone</p>
+                        <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">05/2018-0/2018</p>
+                    </div>
+                    <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Stage - Développement </h2>
+                    <p class="text-gray-700 mb-6">
+                        Stage de première année BTS SIO<br/>
+                        Missions: <br/>
+                        Modification du site web<br/>
+                        Macro VBA <br/>
+                        Maintenance informatique</p>
+                </div>
+            </div>
+            <!-- left -->
+            <div class="flex flex-row-reverse md:contents">
+                <div
+                    class="bg-gray-100 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md text-center xpReveal">
+                    <div class="flex justify-between mb-4">
                         <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">CCMDL</p>
                         <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Saint-Clément-Les-Places</p>
                         <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">01/2017-02/2017</p>
