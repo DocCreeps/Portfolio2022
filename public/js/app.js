@@ -24,98 +24,98 @@ __webpack_require__.r(__webpack_exports__);
   duration: 5000
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.titleExperienceReveal', {
-  delay: 175,
+  delay: 70,
   duration: 2000,
   scale: 0.5
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.titleFormationReveal', {
-  delay: 175,
+  delay: 70,
   duration: 2000,
   scale: 0.5
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.titleProjetReveal', {
-  delay: 175,
+  delay: 70,
   duration: 2000,
   scale: 0.5
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.titleCompetReveal', {
-  delay: 175,
+  delay: 70,
   duration: 2000,
   scale: 0.5
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.titleHobby', {
-  delay: 175,
+  delay: 70,
   duration: 2000,
   scale: 0.5
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.xpReveal', {
-  delay: 250,
+  delay: 100,
   distance: '120px',
   origin: 'bottom',
   duration: 1000,
   interval: 500
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.formationReveal', {
-  delay: 250,
+  delay: 100,
   distance: '120px',
   origin: 'top',
   duration: 1000,
-  interval: 750
+  interval: 500
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.projectPersoReveal', {
-  delay: 250,
+  delay: 100,
   distance: '200px',
   rotate: {
     x: 50,
     z: 90
   },
   duration: 1000,
-  interval: 750
+  interval: 500
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.projectEtuReveal', {
-  delay: 250,
+  delay: 100,
   distance: '120px',
   rotate: {
     x: 50,
     z: 90
   },
   duration: 1000,
-  interval: 750
+  interval: 500
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.langageReveal', {
-  delay: 250,
+  delay: 100,
   distance: '120px',
   origin: 'right',
   duration: 2500,
-  interval: 750
+  interval: 500
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.frameworkReveal', {
-  delay: 250,
+  delay: 100,
   distance: '120px',
   origin: 'left',
   duration: 2500,
-  interval: 750
+  interval: 500
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.osReveal', {
-  delay: 250,
+  delay: 100,
   distance: '120px',
   origin: 'bottom',
   duration: 2500,
-  interval: 750
+  interval: 500
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.otherReveal', {
-  delay: 250,
+  delay: 100,
   distance: '120px',
   origin: 'top',
   duration: 2500,
-  interval: 750
+  interval: 500
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.contactReveal', {
   delay: 250,
   distance: '120px',
   origin: 'top',
   duration: 1000,
-  interval: 750
+  interval: 500
 });
 
 /***/ }),

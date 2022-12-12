@@ -1,10 +1,11 @@
 @include('Component.head')
 @include('Component.header')
 @include('Component.About')
-@include('Component.Experience')
-@include('Component.Formation')
-@include('Component.Projet')
 @include('Component.Competence')
+@include('Component.Projet')
+@include('Component.Formation')
+{{--@include('Component.Experience')--}}
+
 @yield('content')
 
 
