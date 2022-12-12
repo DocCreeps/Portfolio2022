@@ -15,18 +15,17 @@
                         <li class="nav-item">
                         <a href="#about" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">A Propos De Moi</a>
                         </li>
-                        <li class="nav-item">
-                        <a href="#xpPro" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300 ">Experiences Professionnelle</a>
-                        </li>
+                            <li class="nav-item">
+                                <a href="#competences" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Compétences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#projets" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Projets</a>
+                            </li>
                         <li class="nav-item">
                         <a href="#formation" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Formations</a>
                         </li>
-                        <li class="nav-item">
-                        <a href="#competences" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Compétences</a>
-                        </li>
-                        <li class="nav-item">
-                        <a href="#projets" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Projets</a>
-                        </li>
+
+
                             <li class="nav-item">
                                 <a href="#hobby" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Passe Temps</a>
                             </li>
