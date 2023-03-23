@@ -1,4 +1,4 @@
-<Section id="formation" class="">
+<Section id="formation" class="formation">
     <h1 class="text-5xl text-center t font-bold mt-20 mb-10 -ml-3 underline titleFormationReveal">Formations</h1>
 
     <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">

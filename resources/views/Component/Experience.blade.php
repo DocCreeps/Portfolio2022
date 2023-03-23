@@ -1,4 +1,4 @@
-<Section id="xpPro" class="mt-20">
+<Section id="xpPro" class="mt-20 xpPro">
     <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-6 underline titleExperienceReveal">Experiences Professionnelles</h1>
 
         <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">

@@ -1,4 +1,4 @@
-<section class="about" id="about">
+<section class="aboutreveal about" id="about">
 <div class="text-center mt-25">
     <img
         src="{{asset('Picture/Avatar.jpg')}}"

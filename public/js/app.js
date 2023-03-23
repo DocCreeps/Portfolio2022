@@ -11,14 +11,14 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var scrollreveal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! scrollreveal */ "./node_modules/scrollreveal/dist/scrollreveal.es.js");
 
-(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.about', {
-  delay: 500,
+(0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.aboutreveal', {
+  delay: 250,
   distance: '120px',
   origin: 'bottom',
   duration: 2000
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.profilReveal', {
-  delay: 150,
+  delay: 100,
   distance: '1200px',
   origin: 'left',
   duration: 5000
@@ -49,21 +49,21 @@ __webpack_require__.r(__webpack_exports__);
   scale: 0.5
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.xpReveal', {
-  delay: 100,
+  delay: 50,
   distance: '120px',
   origin: 'bottom',
   duration: 1000,
   interval: 500
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.formationReveal', {
-  delay: 100,
+  delay: 50,
   distance: '120px',
   origin: 'top',
   duration: 1000,
   interval: 500
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.projectPersoReveal', {
-  delay: 100,
+  delay: 50,
   distance: '200px',
   rotate: {
     x: 50,
@@ -73,7 +73,7 @@ __webpack_require__.r(__webpack_exports__);
   interval: 500
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.projectEtuReveal', {
-  delay: 100,
+  delay: 50,
   distance: '120px',
   rotate: {
     x: 50,
@@ -83,28 +83,28 @@ __webpack_require__.r(__webpack_exports__);
   interval: 500
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.langageReveal', {
-  delay: 100,
+  delay: 50,
   distance: '120px',
   origin: 'right',
   duration: 2500,
   interval: 500
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.frameworkReveal', {
-  delay: 100,
+  delay: 50,
   distance: '120px',
   origin: 'left',
   duration: 2500,
   interval: 500
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.osReveal', {
-  delay: 100,
+  delay: 50,
   distance: '120px',
   origin: 'bottom',
   duration: 2500,
   interval: 500
 });
 (0,scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.otherReveal', {
-  delay: 100,
+  delay: 50,
   distance: '120px',
   origin: 'top',
   duration: 2500,
@@ -116,6 +116,10 @@ __webpack_require__.r(__webpack_exports__);
   origin: 'top',
   duration: 1000,
   interval: 500
+});
+var scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 500,
+  speedAsDuration: true
 });
 
 /***/ }),

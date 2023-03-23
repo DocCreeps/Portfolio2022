@@ -38,9 +38,6 @@
                     Navigation
                 </h2>
                 <p class="mb-4">
-                    <a href="#xpPro" class="text-gray-600">Experiences Professionnelles</a>
-                </p>
-                <p class="mb-4">
                     <a href="#formation" class="text-gray-600">Formations</a>
                 </p>
                 <p class="mb-4">
@@ -54,11 +51,9 @@
                 <h2 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
                     Autres Projets
                 </h2>
+
                 <p class="mb-4">
-                    <a href="#!" class="text-gray-600">Blog - A VENIR</a>
-                </p>
-                <p class="mb-4">
-                    <a href="#!" class="text-gray-600">Veille techno - A VENIR </a>
+                    <a href="#!" class="text-gray-600">CyberVeille - A VENIR </a>
                 </p>
             </div>
             <div class="">

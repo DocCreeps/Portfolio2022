@@ -1,5 +1,5 @@
 
-<section id="projets">
+<section id="projets" class="projets">
     <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 underline titleProjetReveal">Projets</h1>
 
     <h2 class="text-3xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 hover:underline" id="ProjetPerso">Projets Perso</h2>

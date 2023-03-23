@@ -1,4 +1,4 @@
-<section id="hobby">
+<section id="hobby" class="hobby">
 
 <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 underline titleHobby">Passe temps</h1>
 
