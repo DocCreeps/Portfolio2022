@@ -77,14 +77,12 @@
         </script>
     </nav>
 
-    <div class="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover bg-center h-screen lg:h-screen" style="background-image: url({{asset('Picture/headerBackground.png')}})">
+   <div class="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover bg-center h-5/6 lg:h-5/6" style="background-image: url({{asset('Picture/headerBackground.png')}})">
         <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style="background-color: rgba(0, 0, 0, 0.75)">
             <div class="flex justify-center items-center h-full">
 
             </div>
-
         </div>
-
     </div>
     <div class="container mx-auto px-6 md:px-12 xl:px-30">
         <div class="text-center text-gray-800">
@@ -102,7 +100,7 @@
     const typedTextSpan = document.querySelector("#typed-text");
     const cursorSpan = document.querySelector(".cursor");
 
-    const textArray = ["Développeur Web"];
+    const textArray = ["Développeur Web PHP Laravel"];
     const typingDelay = 200;
     const erasingDelay = 175;
     const newTextDelay = 2000; // Delay between current and next text

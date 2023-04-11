@@ -53,9 +53,14 @@
                     <footer class=" items-center justify-between text-center leading-none mb-5">
                         <p class="text-gray-700 text-base mb-4">
                             Projet en cours 🛠️<br/> Création d'un gestionnaire de mot de passe. <br/>
-                            techno : <br/>
-                            <b>Laravel,JS, Bootstrap, Mariadb</b>
-                        </p>
+                            <b> Techno utilisé :</b> <br/></p>
+                        <div class="grid gap-4 mt-5 mb-5 sm:grid-cols-2 sm:mx-auto lg:mx-auto lg:grid-cols-4">
+                            <div class="col-span-1 flex items-center justify-center"><x-si-laravel style="color:#da433b" /></div>
+                            <div class="col-span-1 flex items-center justify-center"><x-si-javascript style="color:#f7df1e"/></div>
+                            <div class="col-span-1 flex items-center justify-center"><x-si-tailwindcss style="color:#0ea6e6" /></div>
+                            <div class="col-span-1 flex items-center justify-center"><x-si-mariadb style="color:#8e44ad" /></div>
+                        </div>
+
                         <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"><a href="http://gestpass.dorianvericel.fr/">Demo</a></button>
                     </footer>
 
@@ -256,3 +261,4 @@
     </div>
 </section>
 <script src="{{ asset('/js/app.js') }}"></script>
+@bukScripts(true)

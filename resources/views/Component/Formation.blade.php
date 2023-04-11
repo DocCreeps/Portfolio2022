@@ -10,8 +10,8 @@
                     <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Lyon 07</p>
                     <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">2019/2023</p>
                 </div>
-                <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Licences et Master</h2>
-                <p class="text-gray-700 mb-2 ">J'ai effectuer ma licence RPI(Responsable de Projets Informatique) <br/> et mon Master ESI(Expert en Système d'Informations) <br/>Option développeur au seins de l'école Isitech en alternance.</p>
+                <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">Master</h2>
+                <p class="text-gray-700 mb-2 ">J'ai effectuer mon Master ESI(Expert en Système d'Informations) <br/>Option développeur au seins de l'école Isitech en alternance.</p>
 
 
             </div>
