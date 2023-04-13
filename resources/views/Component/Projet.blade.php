@@ -155,10 +155,10 @@
             </div>
             <!-- END Column -->
             <!-- Column -->
-            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2 ">
 
                 <!-- Article -->
-                <article class="overflow-hidden rounded-lg shadow-lg projectEtuReveal">
+                <article class="overflow-hidden rounded-lg shadow-lg  projectEtuReveal ">
                         <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/zjd.png')}}" alt="logo projet zjd" title="Logo ZJD"/>
                     <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
                         <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">ZJD Virtualisation</h4>
