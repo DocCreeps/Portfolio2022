@@ -634,9 +634,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-5 {
   margin-bottom: 1.25rem;
 }
-.ml-3 {
-  margin-left: 0.75rem;
-}
 .block {
   display: block;
 }
@@ -730,40 +727,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .max-w-lg {
   max-width: 32rem;
 }
-@-webkit-keyframes ping {
-
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-@keyframes ping {
-
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-.animate-ping {
-  -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-          animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-}
-@-webkit-keyframes pulse {
-
-  50% {
-    opacity: .5;
-  }
-}
-@keyframes pulse {
-
-  50% {
-    opacity: .5;
-  }
-}
-.animate-pulse {
-  -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -781,9 +744,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .flex-wrap {
   flex-wrap: wrap;
-}
-.content-center {
-  align-content: center;
 }
 .content-between {
   align-content: space-between;
@@ -923,25 +883,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-from: #ef4444;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(239 68 68 / 0));
 }
-.from-cyan-600 {
-  --tw-gradient-from: #0891b2;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(8 145 178 / 0));
-}
 .from-blue-600 {
   --tw-gradient-from: #2563eb;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(37 99 235 / 0));
 }
-.via-violet-600 {
-  --tw-gradient-stops: var(--tw-gradient-from), #7c3aed, var(--tw-gradient-to, rgb(124 58 237 / 0));
-}
 .to-red-800 {
   --tw-gradient-to: #991b1b;
-}
-.to-lime-600 {
-  --tw-gradient-to: #65a30d;
-}
-.to-lime-700 {
-  --tw-gradient-to: #4d7c0f;
 }
 .to-orange-600 {
   --tw-gradient-to: #ea580c;
@@ -1152,6 +1099,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
+.text-transparent {
+  color: transparent;
+}
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
@@ -1159,9 +1109,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-transparent {
-  color: transparent;
 }
 .underline {
   -webkit-text-decoration-line: underline;
@@ -1199,14 +1146,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-.ring-1 {
-  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-}
-.ring-gray-900\/5 {
-  --tw-ring-color: rgb(17 24 39 / 0.05);
 }
 .blur {
   --tw-blur: blur(8px);
@@ -1268,6 +1207,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:animate-bounce:hover {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
+}
+@-webkit-keyframes pulse {
+
+  50% {
+    opacity: .5;
+  }
 }
 @keyframes pulse {
 

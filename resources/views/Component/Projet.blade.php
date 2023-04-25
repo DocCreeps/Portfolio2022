@@ -71,41 +71,7 @@
                 <!-- END Article -->
 
             </div>
-            <!-- END Column -->
-{{--            <!-- Column -->--}}
-{{--            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">--}}
-
-{{--                <!-- Article -->--}}
-{{--                <article class="overflow-hidden rounded-lg shadow-lg projectPersoReveal">--}}
-
-{{--                    <a href="https://gestpass.dorianvericel.fr" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">--}}
-{{--                        <img class="rounded-t-lg mx-auto hover:animate-pulse" src="{{asset('Picture/Projets/gestpass.png')}}" alt="logo projet Gest Pass"   title="Logo Gest Pass"/>--}}
-{{--                    </a>--}}
-
-{{--                    <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">--}}
-{{--                        <h3 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Gest Pass</h3>--}}
-{{--                    </header>--}}
-
-{{--                    <footer class=" items-center justify-between text-center leading-none mb-5">--}}
-{{--                        <p class="text-gray-700 text-base mb-4">--}}
-{{--                            Projet en cours 🛠️<br/> Création d'un gestionnaire de mot de passe. <br/>--}}
-{{--                            <b> Techno utilisé :</b> <br/></p>--}}
-{{--                        <div class="grid gap-4 mt-5 mb-5 sm:grid-cols-2 sm:mx-auto lg:mx-auto lg:grid-cols-3">--}}
-{{--                            <div class="col-span-1 flex items-center justify-center "><x-si-laravel style="color:#da433b" /></div>--}}
-{{--                            --}}{{--                            <div class="col-span-1 flex items-center justify-center"><x-si-javascript style="color:#f7df1e"/></div>--}}
-{{--                            <div class="col-span-1 flex items-center justify-center"><x-si-tailwindcss style="color:#0ea6e6" /></div>--}}
-{{--                            <div class="col-span-1 flex items-center justify-center"><x-si-mariadb style="color:#8e44ad" /></div>--}}
-{{--                        </div>--}}
-
-{{--                        <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"><a href="http://gestpass.dorianvericel.fr/">Demo</a></button>--}}
-{{--                    </footer>--}}
-
-{{--                </article>--}}
-{{--                <!-- END Article -->--}}
-
-{{--            </div>--}}
-{{--            <!-- END Column -->--}}
-
+               <!-- END Column --> 
         </div>
     </div>
 
@@ -196,36 +162,7 @@
     <div class="container my-12 mx-auto px-4 md:px-12">
         <div class="flex flex-wrap -mx-1 lg:-mx-4">
 
-            <!-- Column -->
-            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
 
-                <!-- Article -->
-                <article class="overflow-hidden rounded-lg shadow-lg projectEtuReveal">
-
-                    <a href="https://github.com/DocCreeps/roulette" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                        <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/roulette.jpg')}}" alt="logo projet roulette" title="Logo Roulette"/>
-                    </a>
-
-                    <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
-                        <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Roulette</h4>
-                    </header>
-
-                    <footer class=" items-center justify-between text-center leading-none">
-                        <p class="text-gray-700 text-center text-base mb-4">
-                            Projet BTS qui consistais à la création du jeux de la roulette. <br/>
-                            <b> Techno utilisé :</b> <br/></p>
-                        <div class="grid gap-4 mt-5 mb-5 sm:grid-cols-2 sm:mx-auto lg:mx-auto lg:grid-cols-3">
-                            <div class="col-span-1 flex items-center justify-center"><x-si-php style="color:#0ea6e6" /></div>
-                            <div class="col-span-1 flex items-center justify-center"><x-si-javascript style="color:#f7df1e" /></div>
-                            <div class="col-span-1 flex items-center justify-center"><x-si-mysql style="color:#8e44ad" /></div>
-                        </div>
-                    </footer>
-
-                </article>
-                <!-- END Article -->
-
-            </div>
-            <!-- END Column -->
             <!-- Column -->
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
 
@@ -242,13 +179,83 @@
 
                     <footer class=" items-center justify-between text-center leading-none">
                         <p class="text-gray-700 text-base mb-4">
-                            Application web de gestion des notes de frais.<br/>
+                            Création d'une application web de gestion des notes de frais.<br/>
                             <b> Techno utilisé :</b> <br/></p>
                         <div class="grid gap-4 mt-5 mb-5 sm:grid-cols-2 sm:mx-auto lg:mx-auto lg:grid-cols-3">
                             <div class="col-span-1 flex items-center justify-center"><x-si-php style="color:#0ea6e6" /></div>
                             <div class="col-span-1 flex items-center justify-center"><x-si-javascript style="color:#f7df1e" /></div>
                             <div class="col-span-1 flex items-center justify-center"><x-si-mysql style="color:#8e44ad" /></div>
                         </div>
+                        <button class="mr-5 bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-full mb-5">
+                            <a href="https://github.com/DocCreeps/GSB-Gestion_Notes_De_Frais" target="_blank" class="flex justify-center items-center "> Lien Github:  <x-si-github class="h-5 w-5 ml-2"/></a>
+                        </button>
+                    </footer>
+
+                </article>
+                <!-- END Article -->
+
+            </div>
+            <!-- END Column -->
+
+            <!-- Column -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
+
+                <!-- Article -->
+                <article class="overflow-hidden rounded-lg shadow-lg projectEtuReveal">
+
+                    <a href="https://github.com/DocCreeps/roulette" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                        <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/roulette.jpg')}}" alt="logo projet roulette" title="Logo Roulette"/>
+                    </a>
+
+                    <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
+                        <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">Roulette</h4>
+                    </header>
+
+                    <footer class=" items-center justify-between text-center leading-none">
+                        <p class="text-gray-700 text-center text-base mb-4">
+                            Création d'une application web du jeux de la roulette. <br/>
+                            <b> Techno utilisé :</b> <br/></p>
+                        <div class="grid gap-4 mt-5 mb-5 sm:grid-cols-2 sm:mx-auto lg:mx-auto lg:grid-cols-3">
+                            <div class="col-span-1 flex items-center justify-center"><x-si-php style="color:#0ea6e6" /></div>
+                            <div class="col-span-1 flex items-center justify-center"><x-si-javascript style="color:#f7df1e" /></div>
+                            <div class="col-span-1 flex items-center justify-center"><x-si-mysql style="color:#8e44ad" /></div>
+                        </div>
+                        <button class="mr-5 bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-full mb-5">
+                            <a href="https://github.com/DocCreeps/roulette" target="_blank" class="flex justify-center items-center "> Lien Github:  <x-si-github class="h-5 w-5 ml-2"/></a>
+                        </button>
+
+                    </footer>
+
+                </article>
+                <!-- END Article -->
+
+            </div>
+            <!-- END Column -->
+            <!-- Column -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
+
+                <!-- Article -->
+                <article class="overflow-hidden rounded-lg shadow-lg projectEtuReveal">
+
+                    <a href="https://github.com/DocCreeps/GSB-Gestion_Notes_De_Frais" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                        <img class="rounded-t-lg mx-auto" src="{{asset('Picture/Projets/PC-RB.png')}}" alt="logo projet PC CHEN" title="Logo PC CHEN"/>
+                    </a>
+
+                    <header class="flex items-center text-center justify-between leading-tight p-2 md:p-4">
+                        <h4 class="text-gray-900 text-xl font-medium mb-2 mx-auto">PC CHEN</h4>
+                    </header>
+
+                    <footer class=" items-center justify-between text-center leading-none">
+                        <p class="text-gray-700 text-base mb-4">
+                            Application ayant pour but de recrée le pcChen du jeux vidéo pokemon. Chaques dresseur a le droit a 6 pokemon sur lui et peut poser les autres dans des boites qu'ils peut visualiser et gerer (transfert de pokemon...)<br/>
+                            <b> Techno utilisé :</b> <br/></p>
+                        <div class="grid gap-4 mt-5 mb-5 sm:grid-cols-2 sm:mx-auto lg:mx-auto lg:grid-cols-4">
+                            <div class="col-span-2 flex items-center justify-center"><x-fab-java style="color:#f89820" /></div>
+                            <div class="col-span-2 flex items-center justify-center"><x-si-mysql style="color:#8e44ad" /></div>
+                        </div>
+                        <button class="mr-5 bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-full mb-5">
+                            <a href="https://github.com/DocCreeps/PcChen" target="_blank" class="flex justify-center items-center "> Lien Github:  <x-si-github class="h-5 w-5 ml-2"/></a>
+                        </button>
                     </footer>
 
                 </article>
