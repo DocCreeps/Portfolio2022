@@ -1,13 +1,10 @@
-
-version: 2.1
-
+version: 2
 jobs:
   build:
     docker:
       - image: circleci/php:7.4-node-browsers
     steps:
       - checkout
-      - run: sudo apt-get update && sudo apt-get install -y rsync
       - run: |
           if [ -n "$(git diff --name-only $CIRCLE_SHA1^1..$CIRCLE_SHA1)" ]; then
             git diff --name-only $CIRCLE_SHA1^1..$CIRCLE_SHA1 | xargs -I{} rsync -r --exclude=".git" --exclude="vendor" --exclude="node_modules" --exclude=".env" {} ./
@@ -23,7 +20,6 @@ jobs:
       enabled: true
     steps:
       - checkout
-      - run: echo "Deploying to production server"
       - run:
           name: Install SSH key
           command: |
