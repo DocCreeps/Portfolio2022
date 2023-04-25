@@ -6,9 +6,8 @@ jobs:
     docker:
       - image: circleci/php:7.4-node-browsers
     steps:
-      - run: sudo chown -R root:root /var/lib/apt/lists && sudo chmod 777 /var/lib/apt/lists
-      - run: apt-get update && apt-get install -y rsync
       - checkout
+      - run: apt-get update && apt-get install -y rsync
       - run: |
           if [ -n "$(git diff --name-only $CIRCLE_SHA1^1..$CIRCLE_SHA1)" ]; then
             git diff --name-only $CIRCLE_SHA1^1..$CIRCLE_SHA1 | xargs -I{} rsync -r --exclude=".git" --exclude="vendor" --exclude="node_modules" --exclude=".env" {} ./
