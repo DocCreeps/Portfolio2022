@@ -30,7 +30,7 @@ jobs:
       - run:
           name: Deploy to cPanel
           command: |
-            sshpass -p "$CPANEL_PASSWORD" rsync -avzhe ssh --delete --exclude='.env' --exclude='vendor/' --exclude='node_modules/' --exclude='.git/' --exclude='storage/' $CIRCLE_WORKING_DIRECTORY $CPANEL_USERNAME@$CPANEL_SERVER:$CPANEL_DIRECTORY
+           scp -r -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i ~/.ssh/id_rsa -P $CPANEL_PORT $CIRCLE_WORKING_DIRECTORY/* $CPANEL_USERNAME@$CPANEL_SERVER:$CPANEL_DIRECTORY
 
 workflows:
   version: 2
