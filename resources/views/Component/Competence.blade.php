@@ -68,10 +68,9 @@
                     <h2 class="mt-5 font-bold text-center">Tailwind</h2>
                 </div>
                 <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 frameworkReveal">
-                    <img class="mx-auto" src="{{asset('Picture/livewire.png')}}" alt="logo livewier" title="logo livewire">
+                    <img class="mx-auto" src="{{asset('Picture/livewire.png')}}" alt="logo Livewire" title="logo livewire">
                     <h2 class="mt-5 font-bold text-center">Livewire</h2>
                 </div>
-
 
             </div>
         </div>
