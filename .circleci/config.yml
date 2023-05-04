@@ -9,9 +9,9 @@ jobs:
           if [ -n "$(git diff --name-only $CIRCLE_SHA1^1..$CIRCLE_SHA1)" ]; then
             for file in $(git diff --name-only $CIRCLE_SHA1^1..$CIRCLE_SHA1); do
           if [ -f "$file" ]; then
-            scp -r -i /path/to/ssh_key -o StrictHostKeyChecking=no "$file" user@remote:/path/to/destination/
+            scp -r -i $SSH_PRIVATE_KEY -o StrictHostKeyChecking=no "$file" user@remote:/path/to/destination/
           elif [ -d "$file" ]; then
-            scp -r -i /path/to/ssh_key -o StrictHostKeyChecking=no "$file/" user@remote:/path/to/destination/"$file"
+            scp -r -i $SSH_PRIVATE_KEY -o StrictHostKeyChecking=no "$file/" user@remote:/path/to/destination/"$file"
           fi
           done
           fi
