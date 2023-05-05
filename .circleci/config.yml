@@ -14,7 +14,7 @@ jobs:
           key: composer-v1-{{ checksum "composer.json" }}
           paths:
             - vendor
-      - run: /home/$CPANEL_USERNAME/public_html/.env $CPANEL_DIRECTORY
+      - run: cp /home/$CPANEL_USERNAME/public_html/Portfolio2022/.env $CPANEL_DIRECTORY
       - run: php artisan key:generate
       - run: php artisan config:cache
       - run: php artisan route:cache
