@@ -5,28 +5,36 @@ jobs:
       - image: circleci/php:8.0-node-browsers
     steps:
       - checkout
-      - run: |
-          if [ -n "$(git diff --name-only $CIRCLE_SHA1^1..$CIRCLE_SHA1)" ]; then
-            for file in $(git diff --name-only $CIRCLE_SHA1^1..$CIRCLE_SHA1); do
-          if [ -f "$file" ]; then
-            scp -r -i $SSH_PRIVATE_KEY_PATH -o StrictHostKeyChecking=no "$file" $CPANEL_USER@$CPANEL_SERVER:/home/$CPANEL_user/public_html/deploy/
-          elif [ -d "$file" ]; then
-            scp -r -i $SSH_PRIVATE_KEY_PATH -o StrictHostKeyChecking=no "$file/" $CPANEL_USER@$CPANEL_SERVER:/home/$CPANEL_user/public_html/deploy/"$file"
-          fi
-          done
-          fi
-
+      - restore_cache:
+          keys:
+            - composer-v1-{{ checksum "composer.json" }}
+            - composer-v1-
       - run: composer install --prefer-dist --no-ansi --no-interaction --no-progress --no-scripts
+      - save_cache:
+          key: composer-v1-{{ checksum "composer.json" }}
+          paths:
+            - vendor
       - run: php artisan key:generate
       - run: php artisan config:cache
       - run: php artisan route:cache
       - run: php artisan view:cache
+      - save_cache:
+          key: laravel-config-v1-{{ checksum "composer.json" }}
+          paths:
+            - bootstrap/cache/config.php
+            - bootstrap/cache/routes.php
+            - bootstrap/cache/services.php
+            - bootstrap/cache/packages.php
+            - bootstrap/cache/packages-local.php
 
   deploy:
-    machine:
-      enabled: true
+    docker:
+      - image: circleci/php:8.0-node-browsers
     steps:
       - checkout
+      - restore_cache:
+          keys:
+            - laravel-config-v1-{{ checksum "composer.json" }}
       - run:
           name: Install SSH key
           command: |
@@ -37,7 +45,7 @@ jobs:
       - run:
           name: Deploy to cPanel
           command: |
-           scp -r -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i ~/.ssh/id_rsa -P $CPANEL_PORT $CIRCLE_WORKING_DIRECTORY/* $CPANEL_USERNAME@$CPANEL_SERVER:$CPANEL_DIRECTORY
+            scp -r -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i ~/.ssh/id_rsa -P $CPANEL_PORT $CIRCLE_WORKING_DIRECTORY/* $CPANEL_USERNAME@$CPANEL_SERVER:$CPANEL_DIRECTORY
 
 workflows:
   version: 2
