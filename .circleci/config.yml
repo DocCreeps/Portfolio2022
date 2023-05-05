@@ -14,7 +14,7 @@ jobs:
           key: composer-v1-{{ checksum "composer.json" }}
           paths:
             - vendor
-      - run: $CPANEL_ENV $CPANEL_DIRECTORY
+      - run: /home/$CPANEL_USERNAME/public_html/.env $CPANEL_DIRECTORY
       - run: php artisan key:generate
       - run: php artisan config:cache
       - run: php artisan route:cache
