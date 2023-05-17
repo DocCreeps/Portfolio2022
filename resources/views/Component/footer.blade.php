@@ -73,6 +73,7 @@
                 </p>
             </div>
         </div>
+
     </div>
     <div class="text-center p-6 bg-gray-200">
         <span>© 2022- <script type="text/javascript">

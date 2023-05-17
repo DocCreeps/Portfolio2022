@@ -18,6 +18,7 @@
         "tailwindcss": "^3.0.24"
     },
     "dependencies": {
+        "@splinetool/runtime": "^0.9.334",
         "scrollreveal": "^4.0.9"
     }
 }
