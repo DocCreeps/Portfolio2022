@@ -35,7 +35,20 @@
                     </div>
                     <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 langageReveal">
                         <img class="mx-auto" src="{{asset('Picture/vba.png')}}" alt="logo vba" title="Logo VBA">
-                        <h2 class="mt-5 font-bold text-center">VBA</h2>
+                        <h2 class="mt-5 font-bold text-center">VB</h2>
+                        <p> VBA,VBS</p>
+                    </div>
+                    <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 langageReveal">
+                        <img class="mx-auto" src="{{asset('Picture/vba.png')}}" alt="logo vba" title="Logo WinDev">
+                        <h2 class="mt-5 font-bold text-center">WinDev</h2>
+                    </div>
+                    <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 langageReveal">
+                        <img class="mx-auto" src="{{asset('Picture/vba.png')}}" alt="logo vba" title="Logo Python">
+                        <h2 class="mt-5 font-bold text-center">Python</h2>
+                    </div>
+                    <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 langageReveal">
+                        <img class="mx-auto" src="{{asset('Picture/vba.png')}}" alt="logo vba" title="Logo Python">
+                        <h2 class="mt-5 font-bold text-center">Batch</h2>
                     </div>
 
                 </div>
@@ -47,7 +60,7 @@
     <div class="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 mx-auto">
         <div class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
             <div class="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
-                <h2 class="text-3xl font-bold sm:text-4xl hover:underline">Framework</h2>
+                <h2 class="text-3xl font-bold sm:text-4xl hover:underline">Framework/Librairie</h2>
             </div>
 
             <div class="grid grid-cols-3 gap-4 sm:grid-cols-3">
@@ -71,7 +84,26 @@
                     <img class="mx-auto" src="{{asset('Picture/livewire.png')}}" alt="logo Livewire" title="logo livewire">
                     <h2 class="mt-5 font-bold text-center">Livewire</h2>
                 </div>
-
+                <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 frameworkReveal">
+                    <img class="mx-auto" src="{{asset('Picture/livewire.png')}}" alt="logo Livewire" title="logo Datatables">
+                    <h2 class="mt-5 font-bold text-center">Datatables</h2>
+                </div>
+                <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 frameworkReveal">
+                    <img class="mx-auto" src="{{asset('Picture/livewire.png')}}" alt="logo Livewire" title="logo Filament">
+                    <h2 class="mt-5 font-bold text-center">Filament</h2>
+                </div>
+                <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 frameworkReveal">
+                    <img class="mx-auto" src="{{asset('Picture/livewire.png')}}" alt="logo Livewire" title="logo Filament">
+                    <h2 class="mt-5 font-bold text-center">AlpineJs</h2>
+                </div>
+                <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 frameworkReveal">
+                    <img class="mx-auto" src="{{asset('Picture/livewire.png')}}" alt="logo Livewire" title="logo Filament">
+                    <h2 class="mt-5 font-bold text-center">Filament</h2>
+                </div>
+                <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 frameworkReveal">
+                    <img class="mx-auto" src="{{asset('Picture/livewire.png')}}" alt="logo Livewire" title="logo Filament">
+                    <h2 class="mt-5 font-bold text-center">ScroolReveal</h2>
+                </div>
             </div>
         </div>
     </div>
@@ -92,7 +124,7 @@
             <img class="mx-auto" src="{{asset('Picture/linux.png')}}" alt="logo linux" title="Logo Linux">
                 <div class="font-bold text-center text-xl mb-2">Linux</div>
                 <p class="text-gray-700 text-center text-base">
-                   Distribution : Debian, Ubuntu, RedHat
+                   Distribution : Debian, Ubuntu, RedHat...
                 </p>
             </div>
 
@@ -118,6 +150,7 @@
             <img class="mx-auto" src="{{asset('Picture/git.png')}}" alt="logo git" title="Logo Git" >
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Git</div>
+                <p> GitHub, GitLab</p>
             </div>
         </div>
         <!--Card 2-->
@@ -168,7 +201,7 @@
                 <div class="px-6 py-4">
                     <div class="font-bold text-center text-xl mb-2">SGBDR</div>
                     <p class="text-gray-700 text-center text-base">
-                        SqlServer, MySQL, Mariadb
+                        SqlServer, MySQL, Mariadb, PostgreSql
                     </p>
                 </div>
 
@@ -179,7 +212,18 @@
                 <div class="font-bold text-center text-xl mb-2">Heroku</div>
             </div>
         </div>
-
+        <div class="rounded overflow-hidden shadow-lg otherReveal">
+            <img class="mx-auto" src="{{asset('Picture/Heroku.png')}}" alt="logo heroku" title="Logo heroku">
+            <div class="px-6 py-4">
+                <div class="font-bold text-center text-xl mb-2">Circle CI</div>
+            </div>
+        </div>
+        <div class="rounded overflow-hidden shadow-lg otherReveal">
+            <img class="mx-auto" src="{{asset('Picture/Heroku.png')}}" alt="logo heroku" title="Logo heroku">
+            <div class="px-6 py-4">
+                <div class="font-bold text-center text-xl mb-2">Notion</div>
+            </div>
+        </div>
     </div>
     </div>
 {{-- Notion...  --}}

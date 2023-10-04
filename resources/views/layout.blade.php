@@ -1,6 +1,6 @@
 @include('Component.head')
 @include('Component.header')
-@include('Component.About')
+{{--@include('Component.About')--}}
 @include('Component.Competence')
 @include('Component.Projet')
 @include('Component.Formation')
