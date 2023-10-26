@@ -1,7 +1,5 @@
 <section id="competences">
-
     <h1 class="text-5xl text-center text-gray-700 font-bold mt-20 mb-20 -ml-3 underline titleCompetReveal">Compétences</h1>
-
         <div class="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 mx-auto">
             <div class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
                 <div class="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
@@ -34,21 +32,21 @@
                         <h2 class="mt-5 font-bold text-center">C#</h2>
                     </div>
                     <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 langageReveal">
-                        <img class="mx-auto" src="{{asset('Picture/vba.png')}}" alt="logo vba" title="Logo VBA">
+                        <img class="mx-auto" src="{{asset('Picture/vba.png')}}" alt="logo vba" title="Logo VB">
                         <h2 class="mt-5 font-bold text-center">VB</h2>
-                        <p> VBA,VBS</p>
+                        <p class="text-gray-700 text-center text-base"> VBA,VBS</p>
                     </div>
                     <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 langageReveal">
-                        <img class="mx-auto" src="{{asset('Picture/vba.png')}}" alt="logo vba" title="Logo WinDev">
+                        <img class="mx-auto" src="{{asset('Picture/windev.png')}}" alt="logo Windev" title="Logo WinDev">
                         <h2 class="mt-5 font-bold text-center">WinDev</h2>
                     </div>
                     <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 langageReveal">
-                        <img class="mx-auto" src="{{asset('Picture/vba.png')}}" alt="logo vba" title="Logo Python">
+                        <img class="mx-auto" src="{{asset('Picture/python.jpg')}}" alt="logo python" title="Logo Python">
                         <h2 class="mt-5 font-bold text-center">Python</h2>
                     </div>
                     <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 langageReveal">
-                        <img class="mx-auto" src="{{asset('Picture/vba.png')}}" alt="logo vba" title="Logo Python">
-                        <h2 class="mt-5 font-bold text-center">Batch</h2>
+                        <img class="mx-auto" src="{{asset('Picture/bash.png')}}" alt="logo bash" title="Logo bash">
+                        <h2 class="mt-5 font-bold text-center">Bash</h2>
                     </div>
 
                 </div>
@@ -85,23 +83,19 @@
                     <h2 class="mt-5 font-bold text-center">Livewire</h2>
                 </div>
                 <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 frameworkReveal">
-                    <img class="mx-auto" src="{{asset('Picture/livewire.png')}}" alt="logo Livewire" title="logo Datatables">
+                    <img class="mx-auto" src="{{asset('Picture/datatables.jpg')}}" alt="logo datatables" title="logo Datatables">
                     <h2 class="mt-5 font-bold text-center">Datatables</h2>
                 </div>
                 <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 frameworkReveal">
-                    <img class="mx-auto" src="{{asset('Picture/livewire.png')}}" alt="logo Livewire" title="logo Filament">
+                    <img class="mx-auto" src="{{asset('Picture/filament.jpg')}}" alt="logo filament" title="logo Filament">
                     <h2 class="mt-5 font-bold text-center">Filament</h2>
                 </div>
                 <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 frameworkReveal">
-                    <img class="mx-auto" src="{{asset('Picture/livewire.png')}}" alt="logo Livewire" title="logo Filament">
+                    <img class="mx-auto" src="{{asset('Picture/alpinejs.png')}}" alt="logo alpinejs" title="logo alpinejs">
                     <h2 class="mt-5 font-bold text-center">AlpineJs</h2>
                 </div>
                 <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 frameworkReveal">
-                    <img class="mx-auto" src="{{asset('Picture/livewire.png')}}" alt="logo Livewire" title="logo Filament">
-                    <h2 class="mt-5 font-bold text-center">Filament</h2>
-                </div>
-                <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 frameworkReveal">
-                    <img class="mx-auto" src="{{asset('Picture/livewire.png')}}" alt="logo Livewire" title="logo Filament">
+                    <img class="mx-auto" src="{{asset('Picture/scroolreveal.png')}}" alt="logo ScroolReveal" title="logo ScroolReveal">
                     <h2 class="mt-5 font-bold text-center">ScroolReveal</h2>
                 </div>
             </div>
@@ -213,13 +207,13 @@
             </div>
         </div>
         <div class="rounded overflow-hidden shadow-lg otherReveal">
-            <img class="mx-auto" src="{{asset('Picture/Heroku.png')}}" alt="logo heroku" title="Logo heroku">
+            <img class="mx-auto" src="{{asset('Picture/circleci.png')}}" alt="logo circleci" title="Logo cicleci">
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Circle CI</div>
             </div>
         </div>
         <div class="rounded overflow-hidden shadow-lg otherReveal">
-            <img class="mx-auto" src="{{asset('Picture/Heroku.png')}}" alt="logo heroku" title="Logo heroku">
+            <img class="mx-auto" src="{{asset('Picture/notion.png')}}" alt="logo notion" title="Logo notion">
             <div class="px-6 py-4">
                 <div class="font-bold text-center text-xl mb-2">Notion</div>
             </div>
