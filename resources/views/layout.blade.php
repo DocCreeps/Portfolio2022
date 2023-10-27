@@ -1,5 +1,6 @@
 @include('Component.head')
-@include('Component.header')
+{{--@include('Component.header')--}}
+@include('Component.Hero')
 {{--@include('Component.About')--}}
 @include('Component.Competence')
 @include('Component.Projet')
@@ -8,10 +9,6 @@
 
 @yield('content')
 
-
-{{--<div id = "main" class = "row" >--}}
-{{--    @yield('content')--}}
-{{--</div>--}}
 @include('Component.hobby')
 @include('Component.ContactForm')
 @include('Component.footer')

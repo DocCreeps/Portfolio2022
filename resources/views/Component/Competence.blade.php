@@ -37,10 +37,6 @@
                         <p class="text-gray-700 text-center text-base"> VBA,VBS</p>
                     </div>
                     <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 langageReveal">
-                        <img class="mx-auto" src="{{asset('Picture/windev.png')}}" alt="logo Windev" title="Logo WinDev">
-                        <h2 class="mt-5 font-bold text-center">WinDev</h2>
-                    </div>
-                    <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 langageReveal">
                         <img class="mx-auto" src="{{asset('Picture/python.jpg')}}" alt="logo python" title="Logo Python">
                         <h2 class="mt-5 font-bold text-center">Python</h2>
                     </div>
@@ -48,7 +44,10 @@
                         <img class="mx-auto" src="{{asset('Picture/bash.png')}}" alt="logo bash" title="Logo bash">
                         <h2 class="mt-5 font-bold text-center">Bash</h2>
                     </div>
-
+                    <div class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 langageReveal">
+                        <img class="mx-auto" src="{{asset('Picture/windev.png')}}" alt="logo Windev" title="Logo WinDev">
+                        <h2 class="mt-5 font-bold text-center">WinDev</h2>
+                    </div>
                 </div>
             </div>
         </div>

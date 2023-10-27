@@ -324,7 +324,7 @@
 
                     <footer class=" items-center justify-between text-center leading-none">
                         <p class="text-gray-700 text-base mb-4">
-                            Application ayant pour but de recrée le pcChen du jeux vidéo pokemon. Chaques dresseur a le droit a 6 pokemon sur lui et peut poser les autres dans des boites qu'ils peut visualiser et gerer (transfert de pokemon...)<br/>
+                            Application ayant pour but de recréer le pcChen du jeux vidéo pokemon. Chaques dresseur a le droit a 6 pokemon sur lui et peut poser les autres dans des boites qu'il peut visualiser et gerer (transfert de pokemon...)<br/>
                             <b> Techno utilisé :</b> <br/></p>
                         <div class="grid gap-4 mt-5 mb-5 sm:grid-cols-2 sm:mx-auto lg:mx-auto lg:grid-cols-4">
                             <div class="col-span-2 flex items-center justify-center"><x-fab-java style="color:#f89820" /></div>

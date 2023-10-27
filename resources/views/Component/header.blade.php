@@ -77,7 +77,7 @@
         </script>
     </nav>
 
-   <div class="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover bg-center h-5/6 lg:h-5/6" style="background-image: url({{asset('Picture/headerBackground.png')}})">
+   <div class="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover bg-center h-5/6 lg:h-6/6" style="background-image: url({{asset('Picture/headerBackground.png')}})">
         <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style="background-color: rgba(0, 0, 0, 0.75)">
             <div class="flex justify-center items-center h-full">
 

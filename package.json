@@ -18,6 +18,7 @@
         "tailwindcss": "^3.0.24"
     },
     "dependencies": {
+        "alpinejs": "^3.13.2",
         "scrollreveal": "^4.0.9"
     }
 }
