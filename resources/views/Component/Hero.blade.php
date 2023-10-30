@@ -36,7 +36,7 @@
     </nav>
 
     <!-- Hero top -->
-    <div class="">
+    <div>
         <!-- Container -->
         <div class="mx-auto max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32 ">
             <!-- Title -->

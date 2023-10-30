@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portfolio Dorian Vericel. ">
-    <meta name="keywords" content="Développeur WEB,PHP,Laravel, Expert en Services d'Informations, développeur php, développeur laravel, développeur php laravel,Dorian Vericel, Portfolio, FullStack">
+    <meta name="description" content="Portfolio Dorian Vericel Développeur PHP LARAVEL. ">
+    <meta name="keywords" content="Développeur WEB,PHP,Laravel, Expert en Services d'Informations, développeur php, développeur laravel, développeur php laravel,Dorian Vericel, Portfolio, FullStack, TALL stack">
     <meta name="robots" content="index, follow">
-    <title>Portfolio Dorian Vericel Développeur PHP LARAVEL</title>
+    <title>Portfolio Dorian Vericel</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="{{ asset('/js/app.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
