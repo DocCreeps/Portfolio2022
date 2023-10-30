@@ -1,5 +1,4 @@
 <header>
-
     <nav  class="fixed top-0 z-50 w-full bg-white shadow-lg">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between">
@@ -24,8 +23,6 @@
                         <li class="nav-item">
                         <a href="#formation" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Formations</a>
                         </li>
-
-
                             <li class="nav-item">
                                 <a href="#hobby" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Passe Temps</a>
                             </li>
