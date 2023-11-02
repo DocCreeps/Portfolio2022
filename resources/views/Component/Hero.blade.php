@@ -5,7 +5,7 @@
             <!-- Brand-->
             <a href="/" class="flex items-center cursor-pointer hover:bg-purple-50 px-2 ml-3">
                 <!-- Logo-->
-                <img src="{{asset('Picture/avatar.jpg')}}" class="h-4/5">
+                <img src="{{asset('Picture/avatar.jpg')}}" class="h-4/5 rounded-full">
                 <div class="text-gray-700 font-semibold ml-2">VERICEL Dorian</div>
             </a>
             <!-- Navbar Toggle Button -->
@@ -40,7 +40,8 @@
         <!-- Container -->
         <div class="mx-auto max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32 ">
             <!-- Title -->
-            <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">Portfolio VERICEL Dorian <br /><span class="text-blue-600"> </span><span class="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent" id="typed-text"></span>
+            <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">Portfolio VERICEL Dorian <br /><span class="text-blue-600"> </span>
+                <span class="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent" id="typed-text"></span>
                 <span class="cursor" style= "display: inline-block;margin-left: 0.1rem;width: 4px;animation: blink 1s infinite; background-color: blue;">&nbsp;</span></h1>
         </div>
 
