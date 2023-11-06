@@ -117,10 +117,6 @@ __webpack_require__.r(__webpack_exports__);
   duration: 1000,
   interval: 500
 });
-var scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 500,
-  speedAsDuration: true
-});
 
 /***/ }),
 

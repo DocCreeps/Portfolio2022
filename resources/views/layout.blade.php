@@ -1,15 +1,15 @@
 @include('Component.head')
-{{--@include('Component.header')--}}
+
 @include('Component.Hero')
-{{--@include('Component.About')--}}
+
 @include('Component.Competence')
 @include('Component.Projet')
 @include('Component.Formation')
-{{--@include('Component.Experience')--}}
+
 
 @yield('content')
 
-@include('Component.hobby')
+
 @include('Component.ContactForm')
 @include('Component.footer')
 

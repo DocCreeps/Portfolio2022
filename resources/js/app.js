@@ -1,6 +1,5 @@
 import ScrollReveal from 'scrollreveal'
 
-
 ScrollReveal().reveal('.aboutreveal', {delay : 250, distance: '120px',origin: 'bottom', duration: 2000});
 ScrollReveal().reveal('.profilReveal', {delay : 100, distance: '1200px',origin: 'left', duration: 5000});
 
@@ -31,7 +30,4 @@ ScrollReveal().reveal('.otherReveal', {delay : 50, distance: '120px',origin: 'to
 
 ScrollReveal().reveal('.contactReveal', {delay : 250, distance: '120px',origin: 'top', duration: 1000, interval: 500 });
 
-const scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 500,
-    speedAsDuration: true
-});
+

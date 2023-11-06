@@ -3,9 +3,9 @@
     <nav class="border-b fixed top-0 z-50 w-full bg-white shadow-lg">
         <div x-data="{showMenu : false}" class="container max-w-screen-lg mx-auto flex justify-between h-14">
             <!-- Brand-->
-            <a href="/" class="flex items-center cursor-pointer hover:bg-purple-50 px-2 ml-3">
+            <a href="#" class="flex items-center cursor-pointer hover:bg-purple-50 px-2 ml-3">
                 <!-- Logo-->
-                <img src="{{asset('Picture/avatar.jpg')}}" class="h-4/5 rounded-full">
+                <img src="{{asset('Picture/avatar.jpg')}}" class="h-4/5 rounded-full" alt="logo portfolio Vericel Dorian">
                 <div class="text-gray-700 font-semibold ml-2">VERICEL Dorian</div>
             </a>
             <!-- Navbar Toggle Button -->
@@ -34,6 +34,7 @@
             </ul>
         </div>
     </nav>
+
 
     <!-- Hero top -->
     <div>
