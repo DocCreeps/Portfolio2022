@@ -1,5 +1,5 @@
 <Section id="formation" class="formation">
-    <h1 class="text-5xl text-center t font-bold mt-20 mb-10 -ml-3 underline titleFormationReveal">Formations</h1>
+    <h2 class="text-5xl text-center t font-bold mt-20 mb-10 -ml-3 underline titleFormationReveal">Formations</h2>
 
     <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
         <!-- left -->
@@ -10,7 +10,7 @@
                     <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Lyon 07</p>
                     <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">2019/2023</p>
                 </div>
-                <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Licence et Master</h2>
+                <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> Licence et Master</h3>
                 <p class="text-gray-700 mb-2 ">J'ai effectuer ma licence RPI (Responsable de Projet Informatique) et mon Master ESI(Expert en Système d'Informations) <br/>Option développeur au seins de l'école Isitech en alternance.</p>
 
             </div>
@@ -80,7 +80,7 @@
                     <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Villefranche-sur-Saône</p>
                     <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">2017/2019</p>
                 </div>
-                <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> BTS SIO option SLAM</h2>
+                <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> BTS SIO option SLAM</h3>
                 <p class="text-gray-700 mb-2">J'ai effectuer mon BTS SIO (Services Informatiques aux Organisations) <br/>Option SLAM(Solution Logiciels et Applications Metiers) <br/>au Centre Scolaire Notre Dame a Villefranche-sur-Saône.<br/> Avec ce BTS j'ai pu apprendre les bases de la programmations  </p>
 
             </div>
@@ -94,7 +94,7 @@
                     <p  class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm ">Saint-Étienne</p>
                     <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm ">2014/2017</p>
                 </div>
-                <h2 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> BEP et BAC Pro SEN option TR</h2>
+                <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600"> BEP et BAC Pro SEN option TR</h3>
                 <p class="text-gray-700 mb-2 overflow-auto">J'ai effectuer mon BEP et mon BAC Professionnel SEN(Système Électronique et Numérique) <br/>option TR (Telecom et Réseaux) au sein du lycée Le marais sainte thérèse a Saint-Étienne.<br/> Ce BAC Pro m'a appris les bases de l'informatique et de l'électronique </p>
 
 

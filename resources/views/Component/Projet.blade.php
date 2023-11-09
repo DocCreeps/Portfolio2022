@@ -15,11 +15,9 @@
                     <div class="flex flex-col gap-4 rounded-2xl bg-[#f2f2f7] px-4 py-8 md:p-4 shadow-xl">
                         <a href='#' target="_blank">
                             <div class="relative">
-                                <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64772c025e9047a330ad448e_Rectangle%2034.png" alt="preview projet arkanda"  title="preview projet arkanda" class="inline-block h-60 w-full rounded-md object-cover" />
-                                <div class="absolute bottom-[-20%] right-[10%] flex h-24 w-24 items-center justify-center rounded-full border-4 border-solid border-[#f2f2f7] bg-black">
-                                    <img src="{{asset('Picture/Projets/arkanda.png')}}" alt="logo arkanda" title="logo arkanda" class="inline-block rounded-full" />
-                                </div>
-
+                                <a href="#" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                                    <img class="rounded-full mx-auto hover:animate-pulse h-32" src="{{asset('Picture/Projets/arkanda.png')}}" alt="logo Arkanda" title="Logo Arkanda"/>
+                                </a>
                             </div>
                         </a>
                         <div class="flex w-full flex-col gap-5">
@@ -51,11 +49,9 @@
                     <div class="flex flex-col gap-4 rounded-2xl bg-[#f2f2f7] px-4 py-8 md:p-4 shadow-xl">
                         <a href='#' target="_blank">
                             <div class="relative">
-                                <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64772c025e9047a330ad448e_Rectangle%2034.png" alt="preview projet arvak"  title="preview projet arvak" class="inline-block h-60 w-full rounded-md object-cover" />
-                                <div class="absolute bottom-[-20%] right-[10%] flex h-24 w-24 items-center justify-center rounded-full border-4 border-solid border-[#f2f2f7] bg-black">
-                                    <img src="{{asset('Picture/Projets/arvak2.jpg')}}" alt="logo arvak" title="logo arvak" class="inline-block rounded-full" />
-                                </div>
-
+                                <a href="#" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                                    <img class="rounded-full mx-auto hover:animate-pulse h-32" src="{{asset('Picture/Projets/arvak2.jpg')}}" alt="logo projet Arvak" title="Logo Arvak"/>
+                                </a>
                             </div>
                         </a>
                         <div class="flex w-full flex-col gap-5">
@@ -122,10 +118,10 @@
                     <div class="flex flex-col gap-4 rounded-2xl bg-[#f2f2f7] px-4 py-8 md:p-4 shadow-xl">
                         <a href='#' target="_blank">
                             <div class="relative">
-                                <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64772c025e9047a330ad448e_Rectangle%2034.png" alt="preview projet togweb"  title="preview projet togweb" class="inline-block h-60 w-full rounded-md object-cover" />
-                                <div class="absolute bottom-[-20%] right-[10%] flex h-24 w-24 items-center justify-center rounded-full border-4 border-solid border-[#f2f2f7] bg-black">
-                                    <img src="{{asset('Picture/Projets/togWeb.jpg')}}" alt="logo ThronesOfGamers" title="logo ThronesOfGamers" class="inline-block rounded-full" />
-                                </div>
+                                <a href="#" target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                                    <img class="rounded-full mx-auto hover:animate-pulse h-32" src="{{asset('Picture/Projets/togWeb.jpg')}}" alt="logo projet ThronesOfGamers" title="Logo ThronesOfGamers"/>
+                                </a>
+
 
                             </div>
                         </a>
