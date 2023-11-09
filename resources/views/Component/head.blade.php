@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portfolio Dorian Vericel Développeur PHP LARAVEL. ">
+    <meta name="description" content="Je suis Dorian Vericel, un développeur Back-end principalement sur l'envrionement Laravel (Livewire, Alpinejs, Filament...) ">
     <meta name="keywords" content="Développeur WEB,PHP,Laravel, Expert en Services d'Informations, développeur php, développeur laravel, développeur php laravel,Dorian Vericel, Portfolio, FullStack, TALL stack">
     <meta name="robots" content="index, follow">
     <title>Portfolio Dorian Vericel</title>

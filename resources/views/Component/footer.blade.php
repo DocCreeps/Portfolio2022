@@ -53,7 +53,9 @@
                 </h2>
 
                 <p class="mb-4">
-                    <a href="#!" class="text-gray-600">CyberVeille - A VENIR </a>
+                    <a href="#!" class="text-gray-600">Arkanda - A VENIR </a>
+                    <a href="#!" class="text-gray-600">Arvak - A VENIR </a>
+                    <a href="#!" class="text-gray-600">TogWEB - A VENIR </a>
                 </p>
             </div>
             <div class="">

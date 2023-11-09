@@ -4,7 +4,7 @@
 
 @include('Component.Competence')
 @include('Component.Projet')
-@include('Component.Formation')
+{{--@include('Component.Formation')--}}
 
 
 @yield('content')
