@@ -27,7 +27,7 @@
 {{--                </li>--}}
 {{--                <li class="px-3 cursor-pointer hover:bg-purple-50 flex items-center hover:text-gray-800" :class="showMenu && 'py-1'">--}}
 {{--                    <a href="#hobby">Hobby</a>--}}
-                </li>
+{{--                </li>--}}
                 <li class="px-3 cursor-pointer hover:bg-purple-50 flex items-center hover:text-gray-800" :class="showMenu && 'py-1'">
                     <a href="#contact">Contact</a>
                 </li>
