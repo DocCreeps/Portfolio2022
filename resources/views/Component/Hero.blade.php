@@ -56,7 +56,7 @@
                 <h3 class="text-2xl font-bold md:text-3xl">Introduction</h3>
                 <!-- Divider -->
                 <div class="my-6 w-16 [border-top:2px_solid_rgb(0,_0,_0)]"></div>
-                <p class="text-lg"> Hey, je suis un développeur Backend travaillant principalement avec l'environnement Laravel (LiveWire, AlpineJs, Filament, Fortify, etc.). Grâce à mes 3 années d'alternance, j'ai acquis une précieuse expérience dans la création de solutions et l'analyse des besoins fonctionnels. J'attache également une grande importance à la protection des données et à la sécurité des systèmes que je développe. En explorant mon portfolio, vous découvrirez mon parcours, mes compétences techniques et les projets passionnants sur lesquels j'ai travaillé. N'hésitez pas à explorer et à me contacter si vous avez des questions ou des idées de collaboration!</p>
+                <p class="text-lg"> Hey, je suis un développeur FullStack travaillant principalement avec la stack TALL (Tailwind, AlpineJs, Livewire, Laravel). Grâce à mes 3 années d'alternance, j'ai acquis une précieuse expérience dans la création de solutions et l'analyse des besoins fonctionnels. J'attache également une grande importance à la protection des données et à la sécurité des systèmes que je développe. En explorant mon portfolio, vous découvrirez mon parcours, mes compétences techniques et les projets passionnants sur lesquels j'ai travaillé. N'hésitez pas à explorer et à me contacter si vous avez des questions ou des idées de collaboration!</p>
             </div>
             <!-- Image -->
             <img src="{{asset('Picture/avatar.jpg')}}" alt="" class="relative bottom-0 right-0 mt-12 w-[480px] object-cover lg:absolute lg:mt-0 lg:h-[480px] rounded-xl shadow-2xl" />
@@ -71,7 +71,7 @@
     const typedTextSpan = document.querySelector("#typed-text");
     const cursorSpan = document.querySelector(".cursor");
 
-    const textArray = ["Développeur Web PHP Laravel"];
+    const textArray = ["Développeur FullStack", 🐘 PHP/Laravel ❤️];
     const typingDelay = 200;
     const erasingDelay = 175;
     const newTextDelay = 2000; // Delay between current and next text
