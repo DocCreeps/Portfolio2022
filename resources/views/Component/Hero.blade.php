@@ -71,7 +71,7 @@
     const typedTextSpan = document.querySelector("#typed-text");
     const cursorSpan = document.querySelector(".cursor");
 
-    const textArray = ["Développeur FullStack", 🐘 PHP/Laravel ❤️];
+    const textArray = ["Développeur FullStack", "🐘 PHP/Laravel ❤️"];
     const typingDelay = 200;
     const erasingDelay = 175;
     const newTextDelay = 2000; // Delay between current and next text
